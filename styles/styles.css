@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -9,6 +8,11 @@ body {
     font-size: 17px;
     color: #363232;
     background-color: #E8E8E8;
+}
+
+.logo img {
+    margin-top: 2.8em;
+    margin-right: 0;
 }
 
 .navbar {
@@ -24,13 +28,29 @@ body {
 }
 
 #hero {
+    font-family: 'Playfair Display', serif;
     height: 378px;
-    border: #F59234;
-    border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: xx-large;
+}
+
+#hero button {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-style: none;
+    border-radius: 2px;
+    background: linear-gradient(0deg, rgba(67,89,138,1) 0%, rgba(20,159,250,1) 100%);
+    color: #fff;
+    width: 222px;
+}
+
+#hero img {
+    position: absolute;
+    z-index:-1;
+    width: 100%;
+    padding-bottom: 2em;
 }
 
 .titulo {
@@ -44,13 +64,35 @@ body {
     text-align: center;
 }
 
-#quintoPlan {
-    height: 378px;
-    width: 1008px;
-    border: #F59234;
-    border-style: solid;
-    display: inline-block;
-    font-size: xx-large;
+.btnContainer {
+    display:inline-block;
+    position:relative;
+}
+
+.btn5Plan {
+    position: absolute;
+    bottom:7.5em;
+    right: 8.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-style: none;
+    border-radius: 2px;
+    background: linear-gradient(0deg, rgba(67,89,138,1) 0%, rgba(20,159,250,1) 100%);
+    color: #fff;
+    width: 221px;
+}
+
+.quintoPlan p {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quintoPlan > button {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-style: none;
+    border-radius: 2px;
+    background: linear-gradient(0deg, rgba(67,89,138,1) 0%, rgba(20,159,250,1) 100%);
+    color: #fff;
+    width: 98px;
 }
 
 #containerCompromisos {
@@ -105,7 +147,13 @@ body {
 #calendario {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 100px;
+}
+
+#calendario > h4 {
+    font-family: 'Playfair Display', serif;
 }
 
 .encuentros{
@@ -136,13 +184,29 @@ body {
     text-align: end;
 }
 
+.containerContacto {
+    width: 55%;
+}
 
+.tituloContacto {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
 
+.containerContacto  p {
+    padding-left: 24px;
+}
 
 
 footer {
     background-color: #F59234;
-    height: 65.12px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.logoFooter {
+    margin-left: 12em;
 }
 
 
