@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    color: #363232;
+    background-color: #E8E8E8;
+}
+
+.navbar {
+    background-color: #F59234;
+    height: 65.12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+
+}
+
+.nav-item {
+    padding: 0 40px 0 40px;
+}
+
+#hero {
+    height: 378px;
+    border: #F59234;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.titulo {
+    font-family: 'Playfair Display', serif;
+    color: #10305D;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#containerQuinto {
+    text-align: center;
+}
+
+#quintoPlan {
+    height: 378px;
+    width: 1008px;
+    border: #F59234;
+    border-style: solid;
+    display: inline-block;
+    font-size: xx-large;
+}
+
+#containerCompromisos {
+    text-align: center;
+}
+
+#compromisos {
+    height: 1900px;
+    width: 1008px;
+    border: #F59234;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+}
+
+.compromiso {
+    background-color: #F1EBE0;
+
+    height: 232px;
+    width: 958px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 268px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: left;
+    border-radius: 2%;
+
+}
+
+.nombreCompromiso {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #10305D;
+
+}
+
+.responsable {
+    font-family: 'Playfair Display', serif;
+    size: 15px;
+    line-height: 20px;
+}
+
+.avances {
+    text-align: end;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+
+
+}
+
+footer {
+    background-color: #F59234;
+    height: 65.12px;
+}
+
+
+
+/* font-family: 'Montserrat', sans-serif;     BOTONES PLANES
+
+font-family: 'Open Sans', sans-serif;         
+font-family: 'Playfair Display', serif;       HERO, QUINTO PLAN
+font-family: 'Source Sans Pro', sans-serif;   TEXTO , BOTON HERO(600) */
