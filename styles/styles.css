@@ -60,8 +60,6 @@ body {
 #compromisos {
     height: 1900px;
     width: 1008px;
-    border: #F59234;
-    border-style: solid;
     display: inline-block;
     text-align: center;
 }
@@ -102,9 +100,45 @@ body {
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0.0125em;
+}
 
+#calendario {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.encuentros{
+    width: 1008px;
+    text-align: center;
+    margin-top: 50PX;
+}
+.encuentro{
+    height: 200px;
+    width: 491px;
+    background-color: #F1EBE0;
+    margin: 15px;
+    border-radius: 2%;
+    text-align: left;
 
 }
+.encuentroTitulo{
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 20px;
+    font-weight: 400;
+    color: #BA4613;
+}
+.encuentroBoton{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #BA4613;
+    text-align: end;
+}
+
+
+
+
 
 footer {
     background-color: #F59234;
