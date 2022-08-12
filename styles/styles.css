@@ -1,82 +1,210 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;    
+    text-align: center;
+    line-height: 22px;
     color: #363232;
     background-color: #E8E8E8;
 }
 
 .logo img {
-    margin-top: 2.8em;
+    margin-top: 2.5em;
     margin-right: 0;
+    margin-left: 5em;
 }
 
 .navbar {
-    background-color: #F59234;
-    height: 65.12px;
+    background-color: #e84d3b;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-
+    height: 68px;
 }
 
 .nav-item {
     padding: 0 40px 0 40px;
 }
+.nav-item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 #hero {
+    background-image: url(../img/pexels-tima-miroshnichenko-5685765\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#banner1 {
+    background-image: url(../img/Idea1-BannerHome\ 1.png);
+    background-repeat: no-repeat;
+    background-position: left 185px top 113px;
+    
+}
+
+#banner3 {
+    background-image: url(../img/Idea1-BannerHome\ 3.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 120px ;
+    
+}
+
+#banner2 {
+    background-image: url(../img/Idea1-BannerHome\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right 187px bottom;
+}
+
+#banner4 {
+    background-image: url(../img/Idea1-BannerHome\ 4.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.bannerPrincipal{
+    background: linear-gradient(rgba(33, 29, 28, 0.70), rgba(33, 29, 28, 0.70)) ;
     font-family: 'Playfair Display', serif;
-    height: 378px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: xx-large;
+    height: 25vh;
+    color: #F9F9F9;
 }
 
-#hero button {
+.bannerPrincipal button {
     font-family: 'Source Sans Pro', sans-serif;
     border-style: none;
-    border-radius: 2px;
-    background: linear-gradient(0deg, rgba(67,89,138,1) 0%, rgba(20,159,250,1) 100%);
+    border-radius: 20px;
+    background: #1DA7D3;
     color: #fff;
     width: 222px;
 }
 
-#hero img {
-    position: absolute;
-    z-index:-1;
-    width: 100%;
-    padding-bottom: 2em;
-}
-
 .titulo {
-    font-family: 'Playfair Display', serif;
-    color: #10305D;
-    font-weight: 400;
-    font-size: 25px;
+    font-family: 'Montserrat';
+    color: #E84D3B;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34.5px;
+    text-align: center;
+    margin-bottom: 28px;
 }
 
 #containerQuinto {
+    height: 617px;
+    background-color: #FBBE1F;
+    margin-bottom: 200px;
+
+
+}
+
+.texto {
+    position: relative;
+    left: 33%;
+    width: 35%;
     text-align: center;
+    bottom: 40vw;
+
+}
+
+.subtitulo {
+    font-family: 'Montserrat';
+    color: #363232CC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+/* padre triangulos */
+
+.parent {
+    position: relative;
+
+}
+
+/* triangulo blanco */
+
+.child {
+    top: 358px;
+    border-top: 40vw solid #f9f9f9;
+    border-left: 49vw solid transparent;
+    border-right: 50vw solid transparent;
+    width: 0;
+    height: 0;
+    top: 0px;
+    content: "";
+    display: block;
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* triangulo azul */
+
+.child2 {
+
+    border-top: 4.95vw solid #1da5d3;
+    border-left: 6vw solid transparent;
+    border-right: 7vw solid transparent;
+    width: 0;
+    height: 0;
+    top: -150px;
+    content: "";
+    display: block;
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.trianguloAzul {
+    position: relative;
+    bottom: 723px;
+    left: 814.4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 99.17px 134.07px 0 134.07px;
+    border-color: #1da5d3 transparent transparent transparent;
+    line-height: 0px;
+
 }
 
 .btnContainer {
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    position: relative;
 }
 
 .btn5Plan {
     position: absolute;
-    bottom:7.5em;
+    bottom: 7.5em;
     right: 8.5em;
     font-family: 'Source Sans Pro', sans-serif;
     border-style: none;
     border-radius: 2px;
-    background: linear-gradient(0deg, rgba(67,89,138,1) 0%, rgba(20,159,250,1) 100%);
+    background: linear-gradient(0deg, rgba(67, 89, 138, 1) 0%, rgba(20, 159, 250, 1) 100%);
     color: #fff;
     width: 221px;
 }
@@ -86,17 +214,18 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.quintoPlan > button {
+.quintoPlan>button {
     font-family: 'Source Sans Pro', sans-serif;
     border-style: none;
     border-radius: 2px;
-    background: linear-gradient(0deg, rgba(67,89,138,1) 0%, rgba(20,159,250,1) 100%);
+    background: linear-gradient(0deg, rgba(67, 89, 138, 1) 0%, rgba(20, 159, 250, 1) 100%);
     color: #fff;
     width: 98px;
 }
 
 #containerCompromisos {
     text-align: center;
+    background: rgba(250, 216, 194, 0.5);
 }
 
 #compromisos {
@@ -106,15 +235,39 @@ body {
     text-align: center;
 }
 
-.compromiso {
-    background-color: #F1EBE0;
+.circulo {
+    position: relative;
+    top: 280px;
+    left: -5%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    transform: rotate(270deg)
+}
 
+.circuloFondo {
+    position: relative;
+    top: 180px;
+    left: 4.9%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    transform: rotate(90deg)
+}
+
+.compromiso {
+
+    background: #FFFFFF;
     height: 232px;
-    width: 958px;
+    width: 809.61px;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 268px;
+    padding-left: 200px;
     padding-top: 20px;
     padding-right: 20px;
     text-align: left;
@@ -124,16 +277,33 @@ body {
 
 .nombreCompromiso {
     font-family: 'Montserrat', sans-serif;
-    font-size: 21px;
-    font-weight: 500;
-    color: #10305D;
+    font-size: 24px;
+    font-weight: 600;
+    color: #E84D3B;
+    line-height: 30.5px;
+
+
 
 }
 
 .responsable {
-    font-family: 'Playfair Display', serif;
-    size: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+
+}
+
+.textoCompromisos {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+
+    letter-spacing: 0.25px;
 }
 
 .avances {
@@ -152,40 +322,75 @@ body {
     margin-top: 100px;
 }
 
-#calendario > h4 {
+#calendario>h4 {
     font-family: 'Playfair Display', serif;
 }
 
-.encuentros{
+#divAcerca {
+    margin-top: 178px;
+    margin-left: 22.9vw;
+    margin-right: 22.9vw;
+    text-align: center;
+    
+}
+.tituloAcerca {
+    font-family: 'Montserrat';
+    color: #E84D3B;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34.5px;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 63px;
+}
+
+.btnAcerca {
+    width: 233PX;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    background: #1DA7D3;
+    border-radius: 20px;
+    border-style: hidden;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 13px 11px 13px 11px;
+    letter-spacing: -0.75px;
+}
+
+/* .encuentros {
     width: 1008px;
     text-align: center;
     margin-top: 50PX;
 }
-.encuentro{
+.encuentro {
     height: 200px;
     width: 491px;
     background-color: #F1EBE0;
     margin: 15px;
     border-radius: 2%;
     text-align: left;
-
 }
-.encuentroTitulo{
-    font-family: 'Open Sans', sans-serif;  
+.encuentroTitulo {
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #BA4613;
 }
-.encuentroBoton{
+.encuentroBoton {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 600;
     color: #BA4613;
     text-align: end;
-}
+} */
 
-.containerContacto {
+/* .containerContacto {
     width: 55%;
+    margin-top: 176px;
 }
 
 .tituloContacto {
@@ -193,16 +398,90 @@ body {
     font-size: 25px;
 }
 
-.containerContacto  p {
+.containerContacto p {
     padding-left: 24px;
+} */
+
+/* PREGUNTAS FRECUENTES */
+
+.container {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.container-faq .title-faq {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.container-faq .item-faq {
+    border-style: solid;
+    border-color: #1DA7D3;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container-faq .item-faq .question {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 80px;
+    transition: .4s;
+}
+
+.container-faq .item-faq .question .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.2);
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.container-faq .item-faq .question .more:hover {
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.4);
+}
+
+.container-faq .item-faq .question span {
+    position: absolute;
+    left: 10px;
+    font-size: 3rem;
+    top: 10px;
+    opacity: .1;
+}
+
+.container-faq .item-faq .answer {
+    position: relative;
+    padding: 0 20px 0 80px;
+    overflow: hidden;
+    height: 0;
+    transition: .4s;
+}
+
+.container-faq .item-faq .answer p {
+    font-size: 1.3rem;
+}
+
+.container-faq .item-faq .answer span {
+    position: absolute;
+    left: 10px;
+    font-size: 3rem;
+    top: -10px;
+    opacity: .2;
 }
 
 
 footer {
-    background-color: #F59234;
+    background-color: #E84D3B;
     height: 150px;
     display: flex;
     align-items: center;
+    margin-top: 233px;
 }
 
 .logoFooter {
@@ -212,7 +491,6 @@ footer {
 
 
 /* font-family: 'Montserrat', sans-serif;     BOTONES PLANES
-
 font-family: 'Open Sans', sans-serif;         
 font-family: 'Playfair Display', serif;       HERO, QUINTO PLAN
 font-family: 'Source Sans Pro', sans-serif;   TEXTO , BOTON HERO(600) */
