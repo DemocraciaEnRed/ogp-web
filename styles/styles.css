@@ -14,7 +14,11 @@ body {
     line-height: 22px;
     color: #363232;
     background-color: #E8E8E8;
+    background-color: white;
     overflow-x: hidden;
+
+
+
 }
 
 .logo img {
@@ -108,7 +112,7 @@ h1 {
 }
 
 #containerQuinto {
-    height: 617px;
+    height: 750px;
     background-color: #FBBE1F;
     margin-bottom: 200px;
 
@@ -123,13 +127,14 @@ h1 {
 .textoQuinto {
     width: 60%;
     position: relative;
-    top: -850px;
-    z-index: 6;
+    top: -1000px;
+    z-index: 12;
+    text-align: left;
     /* or 108% */
 }
 
 .texto {
-   
+
     width: 450px;
     color: #363232;
     font-family: 'Montserrat';
@@ -137,21 +142,25 @@ h1 {
     font-size: 18px;
     line-height: 22px;
     text-align: left;
+    margin-right: 5%;
+    padding: 0 10% 0 10%;
+
 }
 
 
 .imagenQuinto {
     width: 440px;
     height: 442px;
+
 }
 
 .subtitulo {
     font-family: 'Montserrat';
     color: #363232CC;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 24px;
-    line-height: 21px;
+    line-height: 22px;
     margin-top: 28px;
     margin-bottom: 28px;
 }
@@ -160,7 +169,7 @@ h1 {
 
 .parent {
     position: relative;
-    
+
 
 
 }
@@ -169,7 +178,7 @@ h1 {
 
 .child {
     top: 358px;
-    border-top: 800px solid #f9f9f9;
+    border-top: 950px solid #f9f9f9;
     border-left: 70vw solid transparent;
     border-right: 70vw solid transparent;
     width: 0;
@@ -182,27 +191,25 @@ h1 {
     left: -20.5%;
     right: 0;
     margin: auto;
-z-index:1 ;
-   
-    
+    z-index: 4;
 
 }
 
 /* triangulo azul */
 .parent2 {
     position: relative;
-   
-    
+
+
 }
 
 .child2 {
 
-    border-top: 94px solid #1da5d3;
+    border-top: 110px solid #1da5d3;
     border-left: 7.5vw solid transparent;
     border-right: 7.5vw solid transparent;
     width: 0;
     height: 0;
-    top: -180px;
+    top: -200px;
     content: "";
     display: block;
     position: relative;
@@ -210,7 +217,7 @@ z-index:1 ;
     left: 0;
     right: 0;
     margin: auto;
-    z-index: 1;
+    z-index: 4;
 }
 
 .btnContainer {
@@ -244,22 +251,46 @@ z-index:1 ;
 
 #containerCompromisos {
     text-align: center;
-    background: rgba(250, 216, 194, 0.5);
-position: relative;
-top: -200px;
+    background-color: rgba(250, 216, 194, 0.5);
+    position: relative;
+    top: -200px;
+    z-index: 3;
+
+
+
 }
 
+
 #compromisos {
-    margin-top: 200px;
+    margin-top: 280px;
     height: 1900px;
     width: 1008px;
     display: inline-block;
     text-align: center;
+    z-index: 3;
+}
+
+.tituloContainerCompromisos {
+    margin-bottom: 51px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    z-index: 3;
+
+}
+
+.cuadroCompromiso {
+    position: relative;
+    height: 253px;
+    top: -140px;
+    z-index: 3;
 }
 
 .circulo {
     position: relative;
-    top: 280px;
+    top: 266px;
     left: -5%;
     transform: translate(-50%, -50%);
     height: 100px;
@@ -271,7 +302,7 @@ top: -200px;
 
 .circuloFondo {
     position: relative;
-    top: 180px;
+    top: 166px;
     left: 4.9%;
     transform: translate(-50%, -50%);
     height: 100px;
@@ -287,13 +318,15 @@ top: -200px;
     height: 232px;
     width: 809.61px;
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+    margin-bottom: 27px;
     padding-left: 200px;
     padding-top: 20px;
     padding-right: 20px;
     text-align: left;
     border-radius: 2%;
+
+
 
 }
 
@@ -336,17 +369,50 @@ top: -200px;
     letter-spacing: 0.0125em;
 }
 
+.parent3 {
+    position: relative;
+    z-index: 1;
+    height: 280px;
+
+}
+
+/* triangulo rosa */
+
+.child3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 650px 0 0 49.5vw;
+    position: relative;
+    top: -370px;
+    border-color: transparent transparent transparent #FFFFFF;
+
+
+}
+
+.child4 {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 550px 49.5vw;
+    border-color: transparent transparent #FFFFFF transparent;
+    top: -920px;
+    left: 50%;
+
+
+
+}
+
 #calendario {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+  margin-top: -120px;
 }
 
-#calendario>h4 {
-    font-family: 'Playfair Display', serif;
-}
+
 
 #divAcerca {
     margin-top: 178px;
@@ -384,46 +450,6 @@ top: -200px;
     letter-spacing: -0.75px;
 }
 
-/* .encuentros {
-    width: 1008px;
-    text-align: center;
-    margin-top: 50PX;
-}
-.encuentro {
-    height: 200px;
-    width: 491px;
-    background-color: #F1EBE0;
-    margin: 15px;
-    border-radius: 2%;
-    text-align: left;
-}
-.encuentroTitulo {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #BA4613;
-}
-.encuentroBoton {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: #BA4613;
-    text-align: end;
-} */
-
-/* .containerContacto {
-    width: 55%;
-    margin-top: 176px;
-}
-
-.tituloContacto {
-    font-family: 'Playfair Display', serif;
-    font-size: 25px;
-}
-
-.containerContacto p {
-    padding-left: 24px;
-} */
 
 /* PREGUNTAS FRECUENTES */
 
