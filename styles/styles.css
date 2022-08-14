@@ -20,6 +20,18 @@ body {
 
 
 }
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+    
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
 
 .logo img {
     margin-top: 2.5em;
@@ -425,6 +437,40 @@ h1 {
     right: 0;
     margin: auto;
     z-index: 4;
+}
+.textoPlanesAnteriores{
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17.07px;
+color: #1A1A1B;
+text-align: center;
+letter-spacing: 0.0015em;
+}
+
+.botonesPlanes{
+   position: relative;
+    top: -80px;
+    
+    z-index: 20;
+}
+.btnPlanes{
+    width: 105px;
+    background: white;
+    margin: 10px;
+    color: #1da5d3;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1da5d3;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 13px 11px 13px 11px;
+    letter-spacing: -0.75px;
 }
 
 #calendario {
