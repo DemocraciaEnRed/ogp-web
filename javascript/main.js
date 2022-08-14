@@ -42,9 +42,9 @@ for ( let i = 0; i < btnDropdown.length; i ++ ) {
 
         if ( switchc == 0 ) {
 
-            answer[i].style.height = `${altoParrafo}px`;
+            answer[i].style.height = `60px`;
             question[i].style.marginBottom = '10px';
-            btnDropdown[i].innerHTML = '<i>-</i>';
+            btnDropdown[i].innerHTML = '<i class="bi bi-chevron-up colorBtn"></i>';
             switchc ++;
 
         }
@@ -53,7 +53,7 @@ for ( let i = 0; i < btnDropdown.length; i ++ ) {
 
             answer[i].style.height = `0`;
             question[i].style.marginBottom = '0';
-            btnDropdown[i].innerHTML = '<i>+</i>';
+            btnDropdown[i].innerHTML = '<i class="bi bi-chevron-down colorBtn"></i>';
             switchc --;
 
         }
