@@ -143,6 +143,7 @@ h1 {
 
 .tituloQuinto {
     text-align: left;
+    
 }
 
 
@@ -290,7 +291,7 @@ h1 {
 }
 
 .tituloContainerCompromisos {
-    margin-bottom: 51px;
+    margin-bottom: 100px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -688,10 +689,14 @@ footer {
 
     .textoQuinto {
         width: 80%;
+        left: 4%;
     }
 
     .texto {
         text-align: center;
+    }
+    .tituloContainerCompromisos{
+        margin-bottom: 200px;
     }
     #compromisos{
         width: 70%;
@@ -699,13 +704,16 @@ footer {
     }
     .compromiso{
         height: fit-content;
-        padding: 40px;
-
-        
+        padding: 40px; 
     }
+   
     .cuadroCompromiso{
         height: fit-content;
     }
+    .compromisoGrande{
+        margin-bottom: 20px;
+    }
+    
     .divCirculos{
         display: none;
     }
@@ -749,6 +757,9 @@ footer {
     #compromisos{
         width: 90%;
       
+    }
+    .proximosEncuentros{
+        margin-top: 200px;
     }
 }
 
