@@ -13,18 +13,19 @@ body {
     text-align: center;
     line-height: 22px;
     color: #363232;
-  
+
     background-color: white;
     overflow-x: hidden;
 
 
 
 }
+
 a.nostyle:link {
     text-decoration: inherit;
     color: inherit;
     cursor: auto;
-    
+
 }
 
 a.nostyle:visited {
@@ -97,7 +98,11 @@ h1 {
 
 .bannerPrincipal {
     background: linear-gradient(rgba(33, 29, 28, 0.70), rgba(33, 29, 28, 0.70));
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +141,7 @@ h1 {
 
 .tituloQuinto {
     text-align: left;
+    
 }
 
 
@@ -269,25 +275,21 @@ h1 {
     background-color: rgba(250, 216, 194, 0.5);
     position: relative;
     top: -200px;
-    z-index: 3;
-    
-
-
+    height: 2200px;
 
 }
 
 
 #compromisos {
     margin-top: 280px;
-    height: 1900px;
     width: 1008px;
     display: inline-block;
     text-align: center;
-    z-index: 3;
+
 }
 
 .tituloContainerCompromisos {
-    margin-bottom: 51px;
+    margin-bottom: 100px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -302,12 +304,46 @@ h1 {
     height: 253px;
     top: -140px;
     z-index: 3;
+    /* width: 60%; */
+
+
+}
+
+.divCirculos {
+    width: auto;
 }
 
 .circulo {
     position: relative;
-    top: 266px;
-    left: -5%;
+    top: 165px;
+    left: -5.4%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    transform: rotate(270deg);
+
+
+}
+
+/* .circuloFondo {
+
+    position: relative;
+    top: 166px;
+    left: 4.9%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: white;
+    transform: rotate(90deg)
+} */
+
+.circuloGrande {
+    position: relative;
+    top: 210px;
+    left: -5.4%;
     transform: translate(-50%, -50%);
     height: 100px;
     width: 200px;
@@ -316,35 +352,52 @@ h1 {
     transform: rotate(270deg)
 }
 
-.circuloFondo {
+/* .circuloFondoGrande {
     position: relative;
-    top: 166px;
+    top: 190px;
     left: 4.9%;
     transform: translate(-50%, -50%);
     height: 100px;
     width: 200px;
     border-radius: 150px 150px 0 0;
-    background-color: #1DA7D3;
+    background-color: white;
     transform: rotate(90deg)
+} */
+
+.numeroCompromiso {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 0.25px;
+    transform: rotate(90deg);
+    position: relative;
+    top: 55%;
 }
+
 
 .compromiso {
 
     background: #FFFFFF;
     height: 232px;
-    width: 809.61px;
+    width: 81%;
     display: inline-block;
-
     margin-bottom: 27px;
-    padding-left: 200px;
+    padding-left: 15%;
     padding-top: 20px;
     padding-right: 20px;
     text-align: left;
     border-radius: 2%;
 
-
-
 }
+
+.compromisoGrande {
+    margin-bottom: -60px;
+    height: fit-content;
+}
+
 
 .nombreCompromiso {
     font-family: 'Montserrat', sans-serif;
@@ -387,7 +440,7 @@ h1 {
 
 .parent3 {
     position: relative;
-    z-index: 1;
+    z-index: 8;
     height: 280px;
 
 }
@@ -400,10 +453,9 @@ h1 {
     border-style: solid;
     border-width: 650px 0 0 49.5vw;
     position: relative;
-    top: -370px;
-    border-color: transparent transparent transparent #FFFFFF;
-
-
+    top: -850px;
+    border-color: transparent transparent transparent white;
+    ;
 }
 
 .child4 {
@@ -411,27 +463,25 @@ h1 {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 550px 49.5vw;
-    border-color: transparent transparent #FFFFFF transparent;
-    top: -920px;
+    border-width: 0 0 650px 49.5vw;
+    border-color: transparent transparent white transparent;
+    top: -1500px;
     left: 50%;
 }
 
 .parent5 {
     position: relative;
-    background-color: white;
-
 
 }
 
 .child5 {
 
     border-top: 110px solid #1da5d3;
-    border-left: 7.5vw solid transparent;
-    border-right: 7.5vw solid transparent;
+    border-left: 8.5vw solid transparent;
+    border-right: 8.5vw solid transparent;
     width: 0;
     height: 0;
-    top: -200px;
+    top: -650px;
     content: "";
     display: block;
     position: relative;
@@ -440,25 +490,27 @@ h1 {
     right: 0;
     margin: auto;
     z-index: 4;
-}
-.textoPlanesAnteriores{
- font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17.07px;
-color: #1A1A1B;
-text-align: center;
-letter-spacing: 0.0015em;
+
 }
 
-.botonesPlanes{
-   position: relative;
-    top: -80px;
-    
+.textoPlanesAnteriores {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #1A1A1B;
+    text-align: center;
+    letter-spacing: 0.0015em;
+}
+
+.botonesPlanes {
+    position: relative;
+    top: -20px;
     z-index: 20;
 }
-.btnPlanes{
+
+.btnPlanes {
     width: 105px;
     background: white;
     margin: 10px;
@@ -481,11 +533,11 @@ letter-spacing: 0.0015em;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  margin-top: -120px;
-  background-color: white;
+    margin-top: -580px;
+    background-color: white;
 }
 
-#containerAcerca{
+#containerAcerca {
     background-color: white;
 }
 
@@ -614,7 +666,7 @@ footer {
     height: 150px;
     display: flex;
     align-items: center;
-    margin-top: 233px;
+    /* margin-top: 233px; */
 }
 
 .logoFooter {
@@ -622,10 +674,66 @@ footer {
 }
 
 /* MEDIA QUERIES */
+
+@media only screen and (max-width: 1800px) {
+    .containerQuinto {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tituloQuinto {
+        text-align: center;
+    }
+
+    .quintoPlan {
+        display: none;
+    }
+
+    .textoQuinto {
+        width: 80%;
+        left: 4%;
+    }
+
+    .texto {
+        text-align: center;
+    }
+    .tituloContainerCompromisos{
+        margin-bottom: 200px;
+    }
+    #compromisos{
+        width: 70%;
+      
+    }
+    .compromiso{
+        height: fit-content;
+        padding: 40px; 
+    }
+   
+    .cuadroCompromiso{
+        height: fit-content;
+    }
+    .compromisoGrande{
+        margin-bottom: 20px;
+    }
+    
+    .divCirculos{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     .nav-item {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .btnContainer {
+        display: none;
+    }
+    #compromisos{
+        width: 80%;
+      
     }
 }
 
@@ -637,6 +745,24 @@ footer {
 
     .logo img {
         margin-left: 3em;
+    }
+
+    .child3 {
+        display: none;
+    }
+
+    .child4 {
+        display: none;
+    }
+    .child5{
+        display: none;
+    }
+    #compromisos{
+        width: 90%;
+      
+    }
+    .proximosEncuentros{
+        margin-top: 200px;
     }
 }
 
@@ -671,6 +797,11 @@ footer {
     .btnBurger {
         margin-bottom: 2.4em;
     }
+
+    
+
+   
+
 }
 
 
