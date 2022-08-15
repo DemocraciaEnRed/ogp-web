@@ -42,7 +42,7 @@ for ( let i = 0; i < btnDropdown.length; i ++ ) {
 
         if ( switchc == 0 ) {
 
-            answer[i].style.height = `60px`;
+            answer[i].style.height = `110px`;
             question[i].style.marginBottom = '10px';
             btnDropdown[i].innerHTML = '<i class="bi bi-chevron-up colorBtn"></i>';
             switchc ++;

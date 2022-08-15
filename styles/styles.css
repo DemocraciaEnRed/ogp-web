@@ -70,15 +70,13 @@ a.nostyle:visited {
 #banner1 {
     background-image: url(../img/Idea1-BannerHome\ 1.png);
     background-repeat: no-repeat;
-    background-position: left 185px top 113px;
-
+    background-position: left 185px top 127px;
 }
 
 #banner3 {
     background-image: url(../img/Idea1-BannerHome\ 3.png);
     background-repeat: no-repeat;
     background-position: right bottom 120px;
-
 }
 
 #banner2 {
@@ -559,6 +557,11 @@ h3 {
     padding-bottom: 0;
     padding-top: 8px;
     font-size: 1.1em;
+    color: #1DA7D3;
+}
+
+.paddingText {
+    padding-left: 1.67em;
 }
 
 .container-faq .item-faq .question .more {
