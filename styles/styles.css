@@ -55,6 +55,11 @@ a.nostyle:visited {
     cursor: pointer;
 }
 
+.offcanvas-backdrop {
+    width: 0;
+    height: 180vh;
+}
+
 #hero {
     background-image: url(../img/pexels-tima-miroshnichenko-5685765\ 1.png);
     background-size: cover;
@@ -525,9 +530,14 @@ letter-spacing: 0.0015em;
 
 /* PREGUNTAS FRECUENTES */
 
+.backPreguntasFrecuentes {
+    background-color: #eeeeee;
+    padding-top: 7em;
+    padding-bottom: 9em;
+}
+
 .container {
-    width: 90%;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .container-faq .item-faq {
@@ -606,6 +616,58 @@ footer {
 
 .logoFooter {
     margin-left: 22.5em;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1400px) {
+    .nav-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo img {
+        margin-left: 3em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    #navBar {
+        padding-top: 0;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .offcanvas-body {
+        padding-left: 0;
+        padding-top: 8px;
+    }
+
+    .offcanvas {
+        background-color: #e84d3b;
+        max-width: 33%;
+    }
+
+    .nav-item {
+        padding-left: 17px;
+    }
+
+    .logo img {
+        margin: 0;
+    }
+
+    .btnBurger {
+        margin-bottom: 2.4em;
+    }
 }
 
 

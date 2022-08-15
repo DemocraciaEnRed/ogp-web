@@ -22,13 +22,38 @@
 <body>
 
 
-    <nav class="navbar navbar-dark navbar-expand-lg shadow sticky-top">
+    <nav class="navbar navbar-dark navbar-expand-lg shadow sticky-top" id="navBar">
         <div class="container">
             <a class="logo" href="#">
-                <img src="img/logo.svg" alt="" width="108.66" height="116.78">
+                <img src="img/logo.png" alt="" width="108.66" height="116.78">
             </a>
             <a id="home" class="navbar-brand"> <img class="logo" src="" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler btnBurger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header justify-content-end pb-0">
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav flex-grow-1 pe-3 align-items-start">
+                    <li class="nav-item">
+                        <a id="linkQuinto" class="nav-link active" aria-current="page">5° PLAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="linkEncuentros" class="nav-link active" aria-current="page">ENCUENTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="linkAcerca" class="nav-link active" aria-current="page">ACERCA DE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="linkPreguntas" class="nav-link active" aria-current="page">PREGUNTAS FRECUENTES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="linkContacto" class="nav-link active" aria-current="page">CONTACTO</a>
+                    </li>
+                  </ul>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -50,7 +75,7 @@
                         <a id="linkContacto" class="nav-link active" aria-current="page">CONTACTO</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </nav>
 
@@ -201,9 +226,6 @@
                 </div>
             </div>
            
-            
-            
-
         </div>
  <div class="botonesPlanes">
     <p class="textoPlanesAnteriores">Conoce los planes anteriores</p>
@@ -293,95 +315,96 @@
 
 
 
-
-    <div id="divContacto" class="container containerContacto">
-        <div class="d-flex flex-column align-items-center">
-            <h5 class=" titulo">Preguntas frecuentes</h5>
-            <p>En esta sección podés encontrar información sobre las cuestiones más consultadas. En caso de no encontrar
-                lo que estás buscando, podés escribirnos entrando <a href="">acá</a> y nos pondremos en contacto con vos
-            </p>
-            <button class="btnAcerca btn btn-primary" data-tf-popup="fSqwwL" data-tf-size="80" data-tf-auto-close
-                data-tf-iframe-props="title=FORMULARIO DER WEB" data-tf-medium="snippet">
-                CONTACTANOS
-            </button>
-        </div>
-    </div>
-
-    <!-- PREGUNTAS FRECUENTES -->
-
-    <div id="divPreguntas" class="container">
-        <div class="row">
-            <div class="container-faq">
-                <div class="item-faq">
-                    <div class="question">
-                        <h3>¿Como puedo formar parte de la red de organizaciones?</h3>
-                        <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
-                    </div>
-                    <div class="answer">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
-                            doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
-                            earum eius odit. Doloribus, nesciunt.</p>
-                    </div>
-                </div>
-
-                <div class="item-faq">
-                    <div class="question">
-                        <h3>¿Como puedo participar del proceso de Co - creación?</h3>
-                        <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
-                    </div>
-                    <div class="answer">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
-                            doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
-                            earum eius odit. Doloribus, nesciunt.</p>
-                    </div>
-                </div>
-
-                <div class="item-faq">
-                    <div class="question">
-                        <h3>¿Cómo se eligen las Organizaciones que conforman la Mesa Nacional y cuánto dura su mandato?
-                        </h3>
-                        <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
-                    </div>
-                    <div class="answer">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
-                            doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
-                            earum eius odit. Doloribus, nesciunt.</p>
-                    </div>
-                </div>
-
-                <div class="item-faq">
-                    <div class="question">
-                        <h3>¿Dónde puedo ver la metodología que se aplicará para el Quinto Plan de Acción de Gobierno
-                            Abierto?</h3>
-                        <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
-                    </div>
-                    <div class="answer">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
-                            doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
-                            earum eius odit. Doloribus, nesciunt.</p>
-                    </div>
-                </div>
-
-                <div class="item-faq">
-                    <div class="question">
-                        <h3>¿Cual es el rol de las organizaciones en la Mesa Nacional?</h3>
-                        <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
-                    </div>
-                    <div class="answer">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
-                            doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
-                            earum eius odit. Doloribus, nesciunt.</p>
-                    </div>
-                </div>
-
+    <article class="backPreguntasFrecuentes mt-5">
+        <div id="divContacto" class="container containerContacto">
+            <div class="d-flex flex-column align-items-center">
+                <h5 class=" titulo">Preguntas frecuentes</h5>
+                <p>En esta sección podés encontrar información sobre las cuestiones más consultadas. En caso de no encontrar
+                    lo que estás buscando, podés escribirnos entrando <a href="">acá</a> y nos pondremos en contacto con vos
+                </p>
+                <button class="btnAcerca btn btn-primary" data-tf-popup="fSqwwL" data-tf-size="80" data-tf-auto-close
+                    data-tf-iframe-props="title=FORMULARIO DER WEB" data-tf-medium="snippet">
+                    CONTACTANOS
+                </button>
             </div>
         </div>
-    </div>
+
+        <!-- PREGUNTAS FRECUENTES -->
+
+        <div id="divPreguntas" class="container">
+            <div class="row">
+                <div class="container-faq">
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3>¿Como puedo formar parte de la red de organizaciones?</h3>
+                            <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
+                        </div>
+                        <div class="answer">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
+                                doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
+                                earum eius odit. Doloribus, nesciunt.</p>
+                        </div>
+                    </div>
+
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3>¿Como puedo participar del proceso de Co - creación?</h3>
+                            <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
+                        </div>
+                        <div class="answer">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
+                                doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
+                                earum eius odit. Doloribus, nesciunt.</p>
+                        </div>
+                    </div>
+
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3>¿Cómo se eligen las Organizaciones que conforman la Mesa Nacional y cuánto dura su mandato?
+                            </h3>
+                            <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
+                        </div>
+                        <div class="answer">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
+                                doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
+                                earum eius odit. Doloribus, nesciunt.</p>
+                        </div>
+                    </div>
+
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3>¿Dónde puedo ver la metodología que se aplicará para el Quinto Plan de Acción de Gobierno
+                                Abierto?</h3>
+                            <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
+                        </div>
+                        <div class="answer">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
+                                doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
+                                earum eius odit. Doloribus, nesciunt.</p>
+                        </div>
+                    </div>
+
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3>¿Cual es el rol de las organizaciones en la Mesa Nacional?</h3>
+                            <div class="more"><i class="bi bi-chevron-down colorBtn"></i></div>
+                        </div>
+                        <div class="answer">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos
+                                doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti,
+                                earum eius odit. Doloribus, nesciunt.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
 
 
     <footer>
         <a class="navbar-brand logoFooter" href="#">
-            <img src="img/logo.svg" alt="" width="108.66" height="116.78">
+            <img src="img/logo.png" alt="" width="108.66" height="116.78">
         </a>
         <div class="ms-5 ps-5">
             <button class="btnAcerca btn btn-primary mb-4" data-tf-popup="fSqwwL" data-tf-size="80" data-tf-auto-close
