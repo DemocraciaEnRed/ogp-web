@@ -13,6 +13,8 @@ let btnDropdown = document.querySelectorAll('.question .more')
 let answer = document.querySelectorAll('.answer');
 let parrafo = document.querySelectorAll('.answer p');
 
+
+
 linkAcerca.addEventListener("click", ()=>{
     location.href = "#containerAcerca"
     
