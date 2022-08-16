@@ -73,25 +73,29 @@ a.nostyle:visited {
 #banner1 {
     background-image: url(../img/Idea1-BannerHome\ 1.png);
     background-repeat: no-repeat;
-    background-position: left 185px top 113px;
+    background-position: left 120px top 172px;
+    background-size: 70vh;
 }
 
 #banner3 {
     background-image: url(../img/Idea1-BannerHome\ 3.png);
     background-repeat: no-repeat;
-    background-position: right bottom 120px;
+    background-position: right bottom 195px;
+    background-size: 60vh;
 }
 
 #banner2 {
     background-image: url(../img/Idea1-BannerHome\ 2.png);
     background-repeat: no-repeat;
-    background-position: right 187px bottom;
+    background-position: right 119px bottom 1px;
+    background-size: 70vh;
 }
 
 #banner4 {
     background-image: url(../img/Idea1-BannerHome\ 4.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left -10px bottom 14px;
+    background-size: 34vh;
 }
 
 h1 {
@@ -109,7 +113,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 25vh;
+    height: 35vh;
     color: #F9F9F9;
 }
 
@@ -847,14 +851,13 @@ footer {
 
     #compromisos {
         width: 100%;
-
     }
 
 
 
     h1 {
         margin-top: 0.7em;
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }
 
@@ -887,7 +890,7 @@ footer {
     }
 
     .btnBurger {
-        margin-bottom: 2.4em;
+        margin-bottom: 1.8em;
     }
 
     #divContacto {
@@ -1007,7 +1010,7 @@ footer {
 
     h1 {
         margin-top: 0.7em;
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 
     .nombreCompromiso {
@@ -1023,10 +1026,16 @@ footer {
 
     .colLogo {
         padding-right: 0%;
+        padding-left: 0%;
     }
 
     .colLogo2 {
         padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .btnAcerca {
+        margin-top: 14px;
     }
 }
 
