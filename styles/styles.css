@@ -279,7 +279,7 @@ h1 {
     background-color: rgba(250, 216, 194, 0.5);
     position: relative;
     top: -200px;
-    height: 380vh;
+    height: 300vh;
 }
 
 
@@ -312,7 +312,7 @@ h1 {
 
 .divCirculos {
     width: auto;
-    height: auto;
+    height: 0;
 }
 
 .circulo {
@@ -328,32 +328,32 @@ h1 {
 }
 
 .circulo1 {
-    top: 150px;
+    top: 50px;
 }
 
 .circulo2 {
-    top: 220px;
+    top: 115px;
 }
 
 .circulo3 {
-    top: 170px;
+    top: 70px;
 }
 
 .circulo4 {
-    top: 185px;
+    top: 85px;
 }
 
 .circulo5 {
-    top: 240px;
+    top: 150px;
 
 }
 
 .circulo6 {
-    top: 160px;
+    top: 60px;
 }
 
 .circulo7 {
-    top: 160px;
+    top: 60px;
 }
 
 /* .circuloFondo {
@@ -772,7 +772,7 @@ footer {
 
     .cuadroCompromiso {
         height: fit-content;
-        margin-bottom: 80px;
+        /* margin-bottom: 80px; */
     }
 
 
