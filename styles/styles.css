@@ -137,8 +137,8 @@ h1 {
     margin-bottom: 200px;
 }
 
-#containerQuinto>.parent {
-    overflow: hidden;
+#containerQuinto > .parent{
+    overflow-x: hidden;
 }
 
 .tituloQuinto {
@@ -341,9 +341,13 @@ h1 {
 
 }
 
-.circulo6 {}
+/* .circulo6 {
 
-.circulo7 {}
+}
+
+.circulo7 {
+
+} */
 
 /* .circuloFondo {
 
@@ -404,6 +408,7 @@ h1 {
 
 .compromiso1 {
     z-index: 35;
+    height: fit-content;
 }
 
 .compromiso2 {
@@ -444,9 +449,6 @@ h1 {
     font-weight: 600;
     color: #E84D3B;
     line-height: 30.5px;
-
-
-
 }
 
 .responsable {
@@ -939,13 +941,23 @@ footer {
         height: 90%;
     }
 
-    .btnBurger {
+    .containerQuinto {
         margin-top: 0.6em;
     }
 
     h1 {
         margin-top: 0.7em;
         font-size: 0.5em;
+    }
+
+    .nombreCompromiso {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .nombreCompromiso {
+        font-size: 0.85em;
     }
 }
 
