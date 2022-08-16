@@ -21,7 +21,7 @@ linkAcerca.addEventListener("click", ()=>{
 })
 
 linkQuinto.addEventListener("click", ()=>{
-    location.href = "#containerQuinto"
+    location.href = "#participaBanner"
 })
 
 linkEncuentros.addEventListener("click", ()=>{
