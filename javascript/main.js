@@ -4,6 +4,9 @@ const linkQuinto = document.querySelector("#linkQuinto");
 const linkEncuentros = document.querySelector("#linkEncuentros");
 const linkPreguntas = document.querySelector("#linkPreguntas");
 const linkContacto = document.querySelector("#linkContacto");
+const participaBanner = document.querySelector("#participaBanner")
+const linkEscribinos = document.querySelector("#linkEscribinos")
+
 const home = document.querySelector("#home")
 let question = document.querySelectorAll('.question');
 let btnDropdown = document.querySelectorAll('.question .more')
@@ -11,7 +14,8 @@ let answer = document.querySelectorAll('.answer');
 let parrafo = document.querySelectorAll('.answer p');
 
 linkAcerca.addEventListener("click", ()=>{
-    location.href = "#divAcerca"
+    location.href = "#containerAcerca"
+    
 })
 
 linkQuinto.addEventListener("click", ()=>{
@@ -23,7 +27,10 @@ linkEncuentros.addEventListener("click", ()=>{
 })
 
 linkPreguntas.addEventListener("click", ()=>{
-    location.href = "#divPreguntas"
+    location.href = "#divPreguntasFrecuentes"
+})
+linkEscribinos.addEventListener("click", ()=>{
+    location.href = "#divPreguntasFrecuentes"
 })
 
 linkContacto.addEventListener("click", ()=>{
@@ -31,6 +38,9 @@ linkContacto.addEventListener("click", ()=>{
 })
 home.addEventListener("click", ()=>{
     location.href = "#home"
+})
+participaBanner.addEventListener("click", () =>{
+    location.href ="#containerQuinto"
 })
 
 for ( let i = 0; i < btnDropdown.length; i ++ ) {

@@ -433,6 +433,7 @@ h1 {
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0.0125em;
+    cursor: pointer;
 }
 
 .parent3 {
@@ -506,6 +507,9 @@ h1 {
     top: -20px;
     z-index: 20;
 }
+.btnListado{
+    margin-bottom: 54px !important;
+}
 
 .btnPlanes {
     width: 105px;
@@ -532,10 +536,12 @@ h1 {
     align-items: center;
     margin-top: -580px;
     background-color: white;
+    padding-top: 100px;
 }
 
 #containerAcerca {
     background-color: white;
+    padding-top: 10px;
 }
 
 #divAcerca {
@@ -576,7 +582,11 @@ h1 {
 
 
 /* PREGUNTAS FRECUENTES */
-
+#linkEscribinos{
+    color:#0d6efd;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .backPreguntasFrecuentes {
     background-color: #eeeeee;
     padding-top: 7em;
@@ -665,11 +675,16 @@ footer {
 
     .quintoPlan {
         display: none;
+       width: 0%;
     }
+        
+
 
     .textoQuinto {
-        width: 80%;
-        left: 2.1%;
+        width: 100%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        left: -1%;
     }
 
     .texto {
@@ -716,6 +731,7 @@ footer {
         width: 80%;
       
     }
+  
 }
 
 @media only screen and (max-width: 1200px) {
@@ -850,7 +866,9 @@ footer {
         top: -20px;
       
     }
-    
+    .proximosEncuentros{
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
