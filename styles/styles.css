@@ -275,7 +275,7 @@ h1 {
     background-color: rgba(250, 216, 194, 0.5);
     position: relative;
     top: -200px;
-    height: 375vh;
+    height: 300vh;
 }
 
 
@@ -322,14 +322,16 @@ h1 {
     transform: rotate(270deg);
 }
 
-
+.circulo1 {
+    top: 150px;
+}
 
 .circulo2 {
     top: 220px;
 }
 
 .circulo3 {
-    top: 185px;
+    top: 170px;
 }
 
 .circulo4 {
@@ -337,17 +339,17 @@ h1 {
 }
 
 .circulo5 {
-    top: 250px;
+    top: 240px;
 
 }
 
-/* .circulo6 {
-
+.circulo6 {
+top: 160px;
 }
 
 .circulo7 {
-
-} */
+    top: 160px;
+}
 
 /* .circuloFondo {
 
@@ -409,30 +411,36 @@ h1 {
 .compromiso1 {
     z-index: 35;
     height: fit-content;
+    margin-bottom: -40px;
 }
 
 .compromiso2 {
-   
+    margin-bottom: -40px;
+
     height: fit-content;
 }
 
 .compromiso3 {
-   
+    margin-bottom: -40px;
+
     height: fit-content;
 }
 
 .compromiso4 {
-    
+    margin-bottom: -40px;
+
     height: fit-content;
 }
 
 .compromiso5 {
-  
+    margin-bottom: -40px;
+
     height: fit-content;
 }
 
 .compromiso6 {
-  
+    margin-bottom: -40px;
+
     height: fit-content;
 }
 
@@ -736,6 +744,8 @@ footer {
 
     .texto {
         text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
     }
 
     .tituloContainerCompromisos {
@@ -750,15 +760,15 @@ footer {
     .compromiso {
         height: fit-content;
         padding: 40px;
+       
     }
 
     .cuadroCompromiso {
         height: fit-content;
+        margin-bottom: 80px;
     }
 
-    .compromisoGrande {
-        margin-bottom: 20px;
-    }
+   
 
     .divCirculos {
         display: none;
@@ -927,6 +937,11 @@ footer {
     .proximosEncuentros {
         margin-bottom: 100px;
     }
+    .texto {
+        text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -952,6 +967,12 @@ footer {
 
     .nombreCompromiso {
         font-size: 1.2em;
+    }
+    .texto {
+        text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: -50px;
     }
 }
 
