@@ -753,6 +753,8 @@ footer {
 
     .tituloContainerCompromisos {
         margin-bottom: 200px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     #compromisos {
@@ -892,6 +894,9 @@ footer {
         text-align: center;
         margin-bottom: 28px;
         margin-top: 63px;
+        margin-right: 5%;
+        margin-left: 5%;
+
     }
 
     .child {
