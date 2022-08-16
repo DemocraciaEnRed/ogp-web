@@ -740,9 +740,9 @@ footer {
 
     .textoQuinto {
         width: 100%;
-        margin-left: 2.5%;
+        margin-left: 5%;
         margin-right: 2.5%;
-        left: -1%;
+        left: -5%;
     }
 
     .texto {
@@ -950,7 +950,6 @@ footer {
         margin-right: 10%;
     }
 }
-
 @media only screen and (max-width: 768px) {
     body{
         overflow-x: hidden;
