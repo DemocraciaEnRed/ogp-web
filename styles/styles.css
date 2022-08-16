@@ -727,24 +727,15 @@ footer {
     .logo img {
         margin-left: 3em;
     }
+    
 
-    .child3 {
-        display: none;
-    }
-
-    .child4 {
-        display: none;
-    }
-    .child5{
-        display: none;
-    }
+   
     #compromisos{
-        width: 90%;
+        width: 100%;
       
     }
-    .proximosEncuentros{
-        margin-top: 200px;
-    }
+    
+   
 
     h1 {
         margin-top: 0.7em;
@@ -801,6 +792,65 @@ footer {
         height: 100%;
     }
 
+    #divAcerca {
+        margin-top: 178px;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    
+    }
+    
+    .tituloAcerca {
+       
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 34.5px;
+        text-align: center;
+        margin-bottom: 28px;
+        margin-top: 63px;
+    }
+    .child {
+      
+        border-left: 120vw solid transparent;
+        border-right: 120vw solid transparent;
+      
+        left: -70.5%;
+       
+    
+    }
+    .child2 {
+
+        border-top: 110px solid #1da5d3;
+        border-left: 14.5vw solid transparent;
+        border-right: 14.5vw solid transparent;
+        width: 0;
+        height: 0;
+        top: -200px;
+        content: "";
+        display: block;
+        position: relative;
+        overflow: hidden;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 4;
+    }
+    .child3 {
+        display: none;
+    }
+
+    .child4 {
+        display: none;
+    }
+    .child5{
+        display: none;
+    }
+    .botonesPlanes {
+       margin-bottom: 100px;
+        top: -20px;
+      
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
