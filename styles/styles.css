@@ -167,18 +167,20 @@ h1 {
     font-size: 18px;
     line-height: 22px;
     text-align: left;
-    margin-right: 5%;
+    margin-right: 0;
     padding: 0 10% 0 10%;
 
 }
 
 
 .imagenQuinto {
-    width: 440px;
-    height: 442px;
-
+    width: 500px; 
 }
-
+.btnContainer {
+    display: inline-block;
+    position: relative;
+    top: 80px;
+}
 .subtitulo {
     font-family: 'Montserrat';
     color: #363232CC;
@@ -242,10 +244,7 @@ h1 {
     z-index: 4;
 }
 
-.btnContainer {
-    display: inline-block;
-    position: relative;
-}
+
 
 .btn5Plan {
     position: absolute;
@@ -286,6 +285,7 @@ h1 {
 #compromisos {
     margin-top: 280px;
     width: 1008px;
+
     display: inline-block;
     text-align: center;
 
@@ -304,7 +304,9 @@ h1 {
     top: -20px;
 
 }
-
+a{
+    text-decoration: none;
+}
 .cuadroCompromiso {
     position: relative;
     height: 253px;
@@ -399,7 +401,10 @@ h1 {
     position: relative;
     top: 55%;
     padding-right: 10px;
+    cursor:default;
+
 }
+
 
 
 .compromiso {
@@ -658,7 +663,7 @@ h1 {
 /* PREGUNTAS FRECUENTES */
 #linkEscribinos {
     color: #0d6efd;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
 
