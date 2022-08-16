@@ -174,13 +174,15 @@ h1 {
 
 
 .imagenQuinto {
-    width: 500px; 
+    width: 500px;
 }
+
 .btnContainer {
     display: inline-block;
     position: relative;
     top: 80px;
 }
+
 .subtitulo {
     font-family: 'Montserrat';
     color: #363232CC;
@@ -304,9 +306,11 @@ h1 {
     top: -20px;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .cuadroCompromiso {
     position: relative;
     height: 253px;
@@ -362,18 +366,20 @@ a{
     top: 70px;
 }
 
-/* .circuloFondo {
+.circuloFondo1 {
 
     position: relative;
-    top: 166px;
-    left: 4.9%;
+    top: -30px;
+    left: 4.4%;
     transform: translate(-50%, -50%);
     height: 100px;
     width: 200px;
     border-radius: 150px 150px 0 0;
     background-color: white;
-    transform: rotate(90deg)
-} */
+    background-image: url("../img/pexels-fauxels-3184397\ \(1\).jpg");
+    
+    transform: rotate(90deg);
+}
 
 
 
@@ -401,7 +407,7 @@ a{
     position: relative;
     top: 55%;
     padding-right: 10px;
-    cursor:default;
+    cursor: default;
 
 }
 
@@ -414,7 +420,7 @@ a{
     width: 81%;
     display: inline-block;
     margin-bottom: 27px;
-    padding-left: 10%;
+    padding-left: 15%;
     padding-top: 25px;
     padding-right: 20px;
     text-align: left;
