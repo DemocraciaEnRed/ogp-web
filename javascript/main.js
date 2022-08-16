@@ -27,7 +27,7 @@ linkPreguntas.addEventListener("click", ()=>{
 })
 
 linkContacto.addEventListener("click", ()=>{
-    location.href = "#divContacto"
+    location.href = "#footer"
 })
 home.addEventListener("click", ()=>{
     location.href = "#home"
@@ -42,8 +42,8 @@ for ( let i = 0; i < btnDropdown.length; i ++ ) {
 
         if ( switchc == 0 ) {
 
-            answer[i].style.height = `110px`;
-            question[i].style.marginBottom = '10px';
+            answer[i].style.height = `${altoParrafo}%`;
+            question[i].style.marginBottom = '5px';
             btnDropdown[i].innerHTML = '<i class="bi bi-chevron-up colorBtn"></i>';
             switchc ++;
 

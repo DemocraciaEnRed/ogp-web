@@ -37,21 +37,21 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav flex-grow-1 pe-3 align-items-start">
+                    <ul class="navbar-nav flex-grow-1 pe-3 align-items-start navBarLinks">
                         <li class="nav-item">
-                            <a id="linkQuinto" class="nav-link active" aria-current="page">5° PLAN</a>
+                            <a id="linkQuinto" class="nav-link active">5° PLAN</a>
                         </li>
                         <li class="nav-item">
-                            <a id="linkEncuentros" class="nav-link active" aria-current="page">ENCUENTROS</a>
+                            <a id="linkEncuentros" class="nav-link active">ENCUENTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a id="linkAcerca" class="nav-link active" aria-current="page">ACERCA DE</a>
+                            <a id="linkAcerca" class="nav-link active">ACERCA DE</a>
                         </li>
                         <li class="nav-item">
-                            <a id="linkPreguntas" class="nav-link active" aria-current="page">PREGUNTAS FRECUENTES</a>
+                            <a id="linkPreguntas" class="nav-link active">PREGUNTAS FRECUENTES</a>
                         </li>
                         <li class="nav-item">
-                            <a id="linkContacto" class="nav-link active" aria-current="page">CONTACTO</a>
+                            <a id="linkContacto" class="nav-link active">CONTACTO</a>
                         </li>
                     </ul>
 
@@ -67,7 +67,8 @@
                             <h1>Quinto Plan de Acción Nacional <br> de Gobierno Abierto (2022-2024)</h1>
                             <a class="nostyle"
                                 href="https://www.argentina.gob.ar/jefatura/innovacion-tecnologica/servicios-y-pais-digital/gobierno-abierto/quinto-plan-de-accion">
-                                <button class="btn btn-primary mt-3"> PARTICIPÁ DEL 5º PLAN</button></a>
+                                <button class="btn btn-primary mt-3"> PARTICIPÁ DEL 5º PLAN</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +87,7 @@
             <div class="child2"></div>
 
         </div>
-        <div class="container-fluid textoQuinto  ">
+        <div class="container-fluid textoQuinto">
             <div class="row">
                 <div class="col texto">
                     <h2 class="titulo tituloQuinto"> Quinto plan</h2>
@@ -99,7 +100,7 @@
                         miembros de la sociedad civil. La participación en las Mesas es abierta y podrás aportar tus
                         ideas e inquietudes de cara a conformar los compromisos finales.</p>
                 </div>
-                <div class="col  quintoPlan">
+                <div class="col quintoPlan">
                     <div class="btnContainer">
 
                         <a class="nostyle"
@@ -221,14 +222,13 @@
 
     <div id="calendario">
         <h4 class="tituloAcerca titulo proximosEncuentros">Próximos encuentros</h4>
-        <iframe
+        <iframe id="calendario2"
             src="https://calendar.google.com/calendar/embed?src=calendariomesanacional%40gmail.com&ctz=America%2FArgentina%2FBuenos_Aires"
-            style="border: 0" width="500" height="350" frameborder="0" scrolling="no"></iframe>
+            style="border: 0" frameborder="0" scrolling="no"></iframe>
     </div>
 
     <div id="containerAcerca">
         <div id="divAcerca">
-
             <h2 class="tituloAcerca">¿Que es OGP?</h2>
 
             <p>La Alianza para el Gobierno Abierto (Open Government Partnership, OGP, sus siglas en inglés) es un
@@ -289,7 +289,7 @@
 
 
 
-    <article class="backPreguntasFrecuentes mt-5">
+    <article class="backPreguntasFrecuentes">
         <div id="divContacto" class="container containerContacto">
             <div class="d-flex flex-column align-items-center">
                 <h5 class=" titulo">Preguntas frecuentes</h5>
@@ -373,16 +373,22 @@
     </article>
 
 
-    <footer>
-        <a class="navbar-brand logoFooter" href="#">
-            <img src="img/logo.png" alt="" width="108.66" height="116.78">
-        </a>
-        <div class="ms-5 ps-5">
-            <button class="btnAcerca btn btn-primary mb-4" data-tf-popup="fSqwwL" data-tf-size="80" data-tf-auto-close
-                data-tf-iframe-props="title=FORMULARIO DER WEB" data-tf-medium="snippet">
-                CONTACTANOS
-            </button>
-            <p>red-de-la-sociedad-civil-para-el-estado-abierto-en-argentina@googlegroups.com</p>
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto py-4 colLogo">
+                    <a class="navbar-brand logoFooter" href="#">
+                        <img src="img/logo.png" alt="" width="108.66" height="116.78">
+                    </a>
+                </div>
+                <div class="col-md-auto pt-3 colLogo2">
+                    <button class="btnAcerca btn btn-primary mb-4" data-tf-popup="fSqwwL" data-tf-size="80" data-tf-auto-close
+                            data-tf-iframe-props="title=FORMULARIO DER WEB" data-tf-medium="snippet">
+                            CONTACTANOS
+                    </button>
+                    <p class="text-light pb-3 fs-6">red-de-la-sociedad-civil-para-el-estado-abierto-en-argentina@googlegroups.com</p>
+                </div>
+            </div>
         </div>
     </footer>
 

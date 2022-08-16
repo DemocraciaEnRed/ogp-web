@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -13,12 +12,7 @@ body {
     text-align: center;
     line-height: 22px;
     color: #363232;
-
     background-color: white;
-    overflow-x: hidden;
-
-
-
 }
 
 a.nostyle:link {
@@ -42,8 +36,8 @@ a.nostyle:visited {
 
 .navbar {
     background-color: #e84d3b;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     height: 68px;
 }
 
@@ -54,6 +48,10 @@ a.nostyle:visited {
 .nav-item:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.navBarLinks {
+    font-size: 15px;
 }
 
 .offcanvas-backdrop {
@@ -71,7 +69,7 @@ a.nostyle:visited {
 #banner1 {
     background-image: url(../img/Idea1-BannerHome\ 1.png);
     background-repeat: no-repeat;
-    background-position: left 185px top 127px;
+    background-position: left 185px top 113px;
 }
 
 #banner3 {
@@ -97,7 +95,7 @@ h1 {
 }
 
 .bannerPrincipal {
-    background: linear-gradient(rgba(33, 29, 28, 0.70), rgba(33, 29, 28, 0.70));
+    background: linear-gradient(rgba(33, 29, 28, 0.75), rgba(33, 29, 28, 0.75));
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -112,7 +110,9 @@ h1 {
 }
 
 .bannerPrincipal button {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
     border-style: none;
     border-radius: 20px;
     background: #1DA7D3;
@@ -135,13 +135,14 @@ h1 {
     height: 750px;
     background-color: #FBBE1F;
     margin-bottom: 200px;
+}
 
-
+#containerQuinto > .parent {
+    overflow: hidden;
 }
 
 .tituloQuinto {
     text-align: left;
-    
 }
 
 
@@ -155,7 +156,6 @@ h1 {
 }
 
 .texto {
-
     width: 450px;
     color: #363232;
     font-family: 'Montserrat';
@@ -190,9 +190,6 @@ h1 {
 
 .parent {
     position: relative;
-
-
-
 }
 
 /* triangulo blanco */
@@ -266,7 +263,10 @@ h1 {
     letter-spacing: -0.75px;
 }
 
-
+#calendario2 {
+    width: 50%;
+    height: 500px;
+}
 
 
 
@@ -275,8 +275,7 @@ h1 {
     background-color: rgba(250, 216, 194, 0.5);
     position: relative;
     top: -200px;
-    height: 2200px;
-
+    height: 220vh;
 }
 
 
@@ -305,8 +304,6 @@ h1 {
     top: -140px;
     z-index: 3;
     /* width: 60%; */
-
-
 }
 
 .divCirculos {
@@ -602,7 +599,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 11px 41px 10px 30px;
-    transition: .4s;
+    transition: .5s;
 }
 
 h3 {
@@ -620,58 +617,38 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* box-shadow: 0 0 15px -1px rgba(0, 0, 0, .2); */
-    width: 40px;
-    height: 40px;
+    width: 1%;
+    height: 1%;
     font-size: 1.2rem;
     cursor: pointer;
-    transition: .4s;
+    transition: .5s;
+    margin-left: 1.2em;
 }
-
-/* .container-faq .item-faq .question .more:hover {
-    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .4);
-} */
 
 .colorBtn {
     color: #E84D3B;
-}
-
-.container-faq .item-faq .question span {
-    position: absolute;
-    left: 10px;
-    font-size: 3rem;
-    top: 10px;
-    opacity: .1;
 }
 
 .container-faq .item-faq .answer {
     position: relative;
     padding: 0 20px 0 0;
     overflow: hidden;
-    height: 0px;
-    transition: .4s;
+    height: 0;
+    transition: .5s;
 }
-
-.container-faq .item-faq .answer span {
-    position: absolute;
-    left: 10px;
-    font-size: 3rem;
-    top: -10px;
-    opacity: .2;
-}
-
 
 footer {
     background-color: #E84D3B;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    /* margin-top: 233px; */
 }
 
-.logoFooter {
-    margin-left: 22.5em;
+.colLogo {
+    padding-right: 5%;
 }
+
+.colLogo2 {
+    padding-right: 13%;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -692,7 +669,7 @@ footer {
 
     .textoQuinto {
         width: 80%;
-        left: 4%;
+        left: 2.1%;
     }
 
     .texto {
@@ -720,9 +697,13 @@ footer {
     .divCirculos{
         display: none;
     }
+
+    #containerCompromisos {
+        height: 310vh;
+    }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1399px) {
     .nav-item {
         padding-left: 20px;
         padding-right: 20px;
@@ -739,8 +720,8 @@ footer {
 
 @media only screen and (max-width: 1200px) {
     .nav-item {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 
     .logo img {
@@ -764,6 +745,11 @@ footer {
     .proximosEncuentros{
         margin-top: 200px;
     }
+
+    h1 {
+        margin-top: 0.7em;
+        font-size: 0.8em;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -773,7 +759,7 @@ footer {
     }
 
     .container {
-        margin: 0 auto;
+        margin: 0px auto;
     }
 
     .offcanvas-body {
@@ -783,7 +769,7 @@ footer {
 
     .offcanvas {
         background-color: #e84d3b;
-        max-width: 33%;
+        max-width: 85%;
     }
 
     .nav-item {
@@ -797,11 +783,46 @@ footer {
     .btnBurger {
         margin-bottom: 2.4em;
     }
-
-    
-
    
+    #divContacto {
+        margin-bottom: 50px;
+    }
 
+    .colLogo {
+        padding-right: 0;
+    }
+    
+    
+    .colLogo2 {
+        padding-right: 0;
+    }
+
+    #containerCompromisos {
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #calendario2 {
+        width: 80%;
+        height: 300px;
+    }
+
+    .logo img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .btnBurger {
+        margin-top: 0.6em;
+    }
+
+    h1 {
+        margin-top: 0.7em;
+        font-size: 0.5em;
+    }
 }
 
 
