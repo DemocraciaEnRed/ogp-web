@@ -137,7 +137,7 @@ h1 {
     margin-bottom: 200px;
 }
 
-#containerQuinto > .parent{
+#containerQuinto>.parent {
     overflow-x: hidden;
 }
 
@@ -275,7 +275,7 @@ h1 {
     background-color: rgba(250, 216, 194, 0.5);
     position: relative;
     top: -200px;
-    height: 300vh;
+    height: 340vh;
 }
 
 
@@ -308,6 +308,7 @@ h1 {
 
 .divCirculos {
     width: auto;
+    height: auto;
 }
 
 .circulo {
@@ -344,7 +345,7 @@ h1 {
 }
 
 .circulo6 {
-top: 160px;
+    top: 160px;
 }
 
 .circulo7 {
@@ -411,41 +412,35 @@ top: 160px;
 .compromiso1 {
     z-index: 35;
     height: fit-content;
-    margin-bottom: -40px;
 }
 
 .compromiso2 {
-    margin-bottom: -40px;
-
+    z-index: 35;
     height: fit-content;
 }
 
 .compromiso3 {
-    margin-bottom: -40px;
-
+    z-index: 35;
     height: fit-content;
 }
 
 .compromiso4 {
-    margin-bottom: -40px;
-
+    z-index: 35;
     height: fit-content;
 }
 
 .compromiso5 {
-    margin-bottom: -40px;
-
+    z-index: 35;
     height: fit-content;
 }
 
 .compromiso6 {
-    margin-bottom: -40px;
-
+    z-index: 35;
     height: fit-content;
 }
 
 .compromiso7 {
-   
+
     height: fit-content;
     z-index: 35;
 }
@@ -481,11 +476,17 @@ top: 160px;
 
 .avances {
     text-align: end;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0.0125em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #E84D3B;
+    letter-spacing: 1.25px;
     cursor: pointer;
+}
+.avances:hover{
+    font-weight: bold;
 }
 
 .parent3 {
@@ -744,8 +745,8 @@ footer {
 
     .texto {
         text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     .tituloContainerCompromisos {
@@ -760,7 +761,7 @@ footer {
     .compromiso {
         height: fit-content;
         padding: 40px;
-       
+
     }
 
     .cuadroCompromiso {
@@ -768,14 +769,14 @@ footer {
         margin-bottom: 80px;
     }
 
-   
+
 
     .divCirculos {
         display: none;
     }
 
     #containerCompromisos {
-        height: 345vh;
+        height: 365vh;
     }
 }
 
@@ -792,6 +793,9 @@ footer {
     #compromisos {
         width: 80%;
 
+    }
+    #containerCompromisos {
+        height: 390vh;
     }
 
 }
@@ -937,10 +941,11 @@ footer {
     .proximosEncuentros {
         margin-bottom: 100px;
     }
+
     .texto {
         text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
@@ -968,11 +973,12 @@ footer {
     .nombreCompromiso {
         font-size: 1.2em;
     }
+
     .texto {
         text-align: center;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: -50px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: -50px;
     }
 }
 
