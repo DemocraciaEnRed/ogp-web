@@ -137,7 +137,7 @@ h1 {
     margin-bottom: 200px;
 }
 
-#containerQuinto > .parent {
+#containerQuinto>.parent {
     overflow: hidden;
 }
 
@@ -275,7 +275,7 @@ h1 {
     background-color: rgba(250, 216, 194, 0.5);
     position: relative;
     top: -200px;
-    height: 220vh;
+    height: 375vh;
 }
 
 
@@ -320,9 +320,30 @@ h1 {
     border-radius: 150px 150px 0 0;
     background-color: #1DA7D3;
     transform: rotate(270deg);
+}
 
+
+
+.circulo2 {
+    top: 220px;
+}
+
+.circulo3 {
+    top: 185px;
+}
+
+.circulo4 {
+    top: 185px;
+}
+
+.circulo5 {
+    top: 250px;
 
 }
+
+.circulo6 {}
+
+.circulo7 {}
 
 /* .circuloFondo {
 
@@ -337,17 +358,7 @@ h1 {
     transform: rotate(90deg)
 } */
 
-.circuloGrande {
-    position: relative;
-    top: 210px;
-    left: -5.4%;
-    transform: translate(-50%, -50%);
-    height: 100px;
-    width: 200px;
-    border-radius: 150px 150px 0 0;
-    background-color: #1DA7D3;
-    transform: rotate(270deg)
-}
+
 
 /* .circuloFondoGrande {
     position: relative;
@@ -382,17 +393,48 @@ h1 {
     width: 81%;
     display: inline-block;
     margin-bottom: 27px;
-    padding-left: 15%;
-    padding-top: 20px;
+    padding-left: 10%;
+    padding-top: 25px;
     padding-right: 20px;
     text-align: left;
     border-radius: 2%;
+    z-index: 85;
 
 }
 
-.compromisoGrande {
-    margin-bottom: -60px;
+.compromiso1 {
+    z-index: 35;
+}
+
+.compromiso2 {
+   
     height: fit-content;
+}
+
+.compromiso3 {
+   
+    height: fit-content;
+}
+
+.compromiso4 {
+    
+    height: fit-content;
+}
+
+.compromiso5 {
+  
+    height: fit-content;
+}
+
+.compromiso6 {
+  
+    height: fit-content;
+}
+
+.compromiso7 {
+   
+    height: fit-content;
+    z-index: 35;
 }
 
 
@@ -465,6 +507,7 @@ h1 {
     border-color: transparent transparent white transparent;
     top: -1500px;
     left: 50%;
+    z-index: 0;
 }
 
 .parent5 {
@@ -507,7 +550,8 @@ h1 {
     top: -20px;
     z-index: 20;
 }
-.btnListado{
+
+.btnListado {
     margin-bottom: 54px !important;
 }
 
@@ -582,11 +626,12 @@ h1 {
 
 
 /* PREGUNTAS FRECUENTES */
-#linkEscribinos{
-    color:#0d6efd;
+#linkEscribinos {
+    color: #0d6efd;
     text-decoration: underline;
     cursor: pointer;
 }
+
 .backPreguntasFrecuentes {
     background-color: #eeeeee;
     padding-top: 7em;
@@ -675,9 +720,9 @@ footer {
 
     .quintoPlan {
         display: none;
-       width: 0%;
+        width: 0%;
     }
-        
+
 
 
     .textoQuinto {
@@ -690,31 +735,35 @@ footer {
     .texto {
         text-align: center;
     }
-    .tituloContainerCompromisos{
+
+    .tituloContainerCompromisos {
         margin-bottom: 200px;
     }
-    #compromisos{
+
+    #compromisos {
         width: 70%;
-      
+
     }
-    .compromiso{
+
+    .compromiso {
         height: fit-content;
-        padding: 40px; 
+        padding: 40px;
     }
-   
-    .cuadroCompromiso{
+
+    .cuadroCompromiso {
         height: fit-content;
     }
-    .compromisoGrande{
+
+    .compromisoGrande {
         margin-bottom: 20px;
     }
-    
-    .divCirculos{
+
+    .divCirculos {
         display: none;
     }
 
     #containerCompromisos {
-        height: 310vh;
+        height: 345vh;
     }
 }
 
@@ -727,11 +776,12 @@ footer {
     .btnContainer {
         display: none;
     }
-    #compromisos{
+
+    #compromisos {
         width: 80%;
-      
+
     }
-  
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -743,15 +793,15 @@ footer {
     .logo img {
         margin-left: 3em;
     }
-    
 
-   
-    #compromisos{
+
+
+    #compromisos {
         width: 100%;
-      
+
     }
-    
-   
+
+
 
     h1 {
         margin-top: 0.7em;
@@ -790,7 +840,7 @@ footer {
     .btnBurger {
         margin-bottom: 2.4em;
     }
-   
+
     #divContacto {
         margin-bottom: 50px;
     }
@@ -798,8 +848,8 @@ footer {
     .colLogo {
         padding-right: 0;
     }
-    
-    
+
+
     .colLogo2 {
         padding-right: 0;
     }
@@ -813,11 +863,11 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
         text-align: center;
-    
+
     }
-    
+
     .tituloAcerca {
-       
+
         font-weight: 700;
         font-size: 32px;
         line-height: 34.5px;
@@ -825,15 +875,17 @@ footer {
         margin-bottom: 28px;
         margin-top: 63px;
     }
+
     .child {
-      
+
         border-left: 120vw solid transparent;
         border-right: 120vw solid transparent;
-      
+
         left: -70.5%;
-       
-    
+
+
     }
+
     .child2 {
 
         border-top: 110px solid #1da5d3;
@@ -851,6 +903,7 @@ footer {
         margin: auto;
         z-index: 4;
     }
+
     .child3 {
         display: none;
     }
@@ -858,15 +911,18 @@ footer {
     .child4 {
         display: none;
     }
-    .child5{
+
+    .child5 {
         display: none;
     }
+
     .botonesPlanes {
-       margin-bottom: 100px;
+        margin-bottom: 100px;
         top: -20px;
-      
+
     }
-    .proximosEncuentros{
+
+    .proximosEncuentros {
         margin-bottom: 100px;
     }
 }
