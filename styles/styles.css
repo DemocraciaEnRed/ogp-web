@@ -394,6 +394,7 @@ h1 {
     transform: rotate(90deg);
     position: relative;
     top: 55%;
+    padding-right: 10px;
 }
 
 
@@ -596,6 +597,14 @@ h1 {
     margin-top: -580px;
     background-color: white;
     padding-top: 100px;
+}
+.parrafoEncuentros{
+    margin-left: 22.9vw;
+    margin-right: 22.9vw;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
 }
 
 #containerAcerca {
