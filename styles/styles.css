@@ -784,7 +784,7 @@ footer {
     }
 
     #containerCompromisos {
-        height: 345vh;
+        height: 400vh;
     }
 
 }
@@ -863,12 +863,10 @@ footer {
     }
 
     #containerCompromisos {
-        height: 365vh;
+        height: 400vh;
     }
 
-    /* #containerCompromisos {
-        height: 390vh;
-    } */
+ 
 
 }
 
@@ -893,6 +891,9 @@ footer {
     h1 {
         margin-top: 0.7em;
         font-size: 1em;
+    }
+    #containerCompromisos {
+        height: 390vh;
     }
 }
 
