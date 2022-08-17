@@ -587,6 +587,11 @@ a {
     z-index: 20;
 }
 
+.btnPlanes:hover{
+    background-color: #1DA7D3;
+    border: none;
+}
+
 .btnListado {
     margin-bottom: 54px !important;
 }
@@ -986,6 +991,15 @@ footer {
         margin-left: 10%;
         margin-right: 10%;
     }
+    .parrafoEncuentros {
+        margin-left: 5%;
+        margin-right:5%;
+        text-align: center;
+        margin-top: 0px;
+       
+   
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
