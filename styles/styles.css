@@ -354,7 +354,7 @@ a {
 }
 
 .circulo4 {
-    top:100px;
+    top: 100px;
 }
 
 .circulo5 {
@@ -381,7 +381,7 @@ a {
     border-radius: 150px 150px 0 0;
     background-color: white;
     background-image: url("../img/pexels-fauxels-3184397\ \(1\).jpg");
-    
+
     transform: rotate(90deg);
 }
 
@@ -587,7 +587,7 @@ a {
     z-index: 20;
 }
 
-.btnPlanes:hover{
+.btnPlanes:hover {
     background-color: #1DA7D3;
     border: none;
 }
@@ -758,6 +758,52 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1800px) {
+
+    .quintoPlan {
+        position: relative;
+        left: 90px;
+        top: -20px;
+    }
+
+    .imagenQuinto {
+        width: 400px;
+    }
+
+    .btn5Plan {
+        right: 6em;
+    }
+
+    .textoQuinto {
+        left: 5%;
+
+    }
+
+    .texto {
+        padding: 0;
+        width: 600px;
+    }
+
+    #containerCompromisos {
+        height: 345vh;
+    }
+
+}
+
+@media only screen and (max-width: 1365px) {
+    .nav-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .btnContainer {
+        display: none;
+    }
+
+    #compromisos {
+        width: 80%;
+
+    }
+
     .containerQuinto {
         width: 100%;
         display: flex;
@@ -819,26 +865,10 @@ footer {
     #containerCompromisos {
         height: 365vh;
     }
-}
 
-@media only screen and (max-width: 1399px) {
-    .nav-item {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .btnContainer {
-        display: none;
-    }
-
-    #compromisos {
-        width: 80%;
-
-    }
-
-    #containerCompromisos {
+    /* #containerCompromisos {
         height: 390vh;
-    }
+    } */
 
 }
 
@@ -991,13 +1021,14 @@ footer {
         margin-left: 10%;
         margin-right: 10%;
     }
+
     .parrafoEncuentros {
         margin-left: 5%;
-        margin-right:5%;
+        margin-right: 5%;
         text-align: center;
         margin-top: 0px;
-       
-   
+
+
     }
 
 }
