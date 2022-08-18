@@ -381,23 +381,112 @@ a {
     border-radius: 150px 150px 0 0;
     background-color: white;
     background-image: url("../img/pexels-fauxels-3184397\ \(1\).jpg");
-
     transform: rotate(90deg);
 }
+.circuloFondo2 {
 
-
-
-/* .circuloFondoGrande {
     position: relative;
-    top: 190px;
-    left: 4.9%;
+    top: 15px;
+    left: 4.5%;
     transform: translate(-50%, -50%);
     height: 100px;
     width: 200px;
     border-radius: 150px 150px 0 0;
-    background-color: white;
-    transform: rotate(90deg)
-} */
+    background-color: red;
+    background-image: url("../img/compromiso\ 2.jpg");
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 60% 38%;
+}
+.circuloFondo3 {
+
+    position: relative;
+    top: -20px;
+    left: 4.5%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    background-image: url("../img/compromiso\ 3.jpg");
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 36%;
+}
+.circuloFondo4 {
+
+    position: relative;
+    top: 0px;
+    left: 4.5%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    background-image: url("../img/compromiso\ 4.jpg");
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 82% 35%;
+}
+
+.circuloFondo5 {
+
+    position: relative;
+    top: 50px;
+    left: 4.5%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    background-image: url("../img/compromiso\ 5.jpg");
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 35% ;
+    
+}
+.circuloFondo6 {
+
+    position: relative;
+    top: -30px;
+    left: 4.5%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    background-image: url("../img/compromiso\ 6.jpg");
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 46% ;
+    
+}
+.circuloFondo7 {
+
+    position: relative;
+    top: -30px;
+    left: 4.5%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    background-image: url("../img/compromiso\ 7.jpg");
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 52% 64% ;
+    
+}
+
+
+
+
 
 .numeroCompromiso {
     font-family: 'Montserrat';
@@ -787,6 +876,7 @@ footer {
     .textoQuinto {
         width: 100%;
         left: 10%;
+     
     }
 
 
@@ -801,8 +891,30 @@ footer {
     .circulo {
         left: -9.2%;
     }
-    .circuloFondo1{
+    .circuloFondo1 {
         left: 3.3%
+    }
+    .circuloFondo2{
+        left: 3.3%
+    }
+    .circuloFondo3{
+        left: 3.3%
+    }
+    .circuloFondo4{
+        left: 3.3%
+    }
+    .circuloFondo5{
+        left: 3.3%
+    }
+    .circuloFondo6{
+        left: 3.3%
+    }
+    .circuloFondo7{
+        left: 3.3%
+    }
+    
+    .tituloContainerCompromisos{
+        margin-top: -60px;
     }
 }
 
@@ -927,7 +1039,25 @@ footer {
     .circulo{
         display: none;
     }
-    .circuloFondo1{
+    .circuloFondo1 {
+        display: none;
+    }
+    .circuloFondo2{
+        display: none;
+    }
+    .circuloFondo3{
+        display: none;
+    }
+    .circuloFondo4{
+        display: none;
+    }
+    .circuloFondo5{
+        display: none;
+    }
+    .circuloFondo6{
+        display: none;
+    }
+    .circuloFondo7{
         display: none;
     }
     .compromiso{

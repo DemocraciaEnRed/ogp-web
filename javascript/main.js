@@ -5,7 +5,7 @@ const linkEncuentros = document.querySelector("#linkEncuentros");
 const linkPreguntas = document.querySelector("#linkPreguntas");
 const linkContacto = document.querySelector("#linkContacto");
 const participaBanner = document.querySelector("#participaBanner")
-const linkEscribinos = document.querySelector("#linkEscribinos")
+
 
 const home = document.querySelector("#home")
 let question = document.querySelectorAll('.question');
@@ -31,9 +31,7 @@ linkEncuentros.addEventListener("click", ()=>{
 linkPreguntas.addEventListener("click", ()=>{
     location.href = "#divPreguntasFrecuentes"
 })
-linkEscribinos.addEventListener("click", ()=>{
-    location.href = "#divPreguntasFrecuentes"
-})
+
 
 linkContacto.addEventListener("click", ()=>{
     location.href = "#footer"
