@@ -791,7 +791,7 @@ footer {
 
 
     #containerCompromisos {
-        height: 400vh;
+        height: 440vh;
     }
 
     #compromisos {
@@ -828,9 +828,15 @@ footer {
     .quintoPlan {
         display: none;
     }
-
+    .textoQuinto {
+        width: 60%;
+        left: 0%;
+    }
     #containerCompromisos {
         height: 100%;
+    }
+    .tituloQuinto{
+        text-align: center;
     }
 
     #divAcerca {
@@ -918,6 +924,17 @@ footer {
 
 
     }
+    .circulo{
+        display: none;
+    }
+    .circuloFondo1{
+        display: none;
+    }
+    .compromiso{
+        padding: 0%;
+        padding: 5%;
+    }
+
 
 }
 
