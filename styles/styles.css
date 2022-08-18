@@ -383,6 +383,7 @@ a {
     background-image: url("../img/pexels-fauxels-3184397\ \(1\).jpg");
     transform: rotate(90deg);
 }
+
 .circuloFondo2 {
     position: relative;
     top: 15px;
@@ -398,6 +399,7 @@ a {
     background-attachment: fixed;
     background-position: 60% 38%;
 }
+
 .circuloFondo3 {
 
     position: relative;
@@ -414,6 +416,7 @@ a {
     background-attachment: fixed;
     background-position: 50% 36%;
 }
+
 .circuloFondo4 {
 
     position: relative;
@@ -445,9 +448,10 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 35% ;
-    
+    background-position: 50% 35%;
+
 }
+
 .circuloFondo6 {
 
     position: relative;
@@ -462,9 +466,10 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 0% 46% ;
-    
+    background-position: 0% 46%;
+
 }
+
 .circuloFondo7 {
 
     position: relative;
@@ -479,8 +484,8 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 52% 64% ;
-    
+    background-position: 52% 64%;
+
 }
 
 
@@ -875,7 +880,7 @@ footer {
     .textoQuinto {
         width: 100%;
         left: 10%;
-     
+
     }
 
 
@@ -890,30 +895,65 @@ footer {
     .circulo {
         left: -9.2%;
     }
+
     .circuloFondo1 {
+        left: 3.3%;
+    }
+
+    .circulo2 {
+        top: 150px;
+    }
+
+    .circuloFondo2 {
+        left: 3.3%;
+        top: 50px;
+    }
+
+    .circulo3 {
+        top: 90px;
+    }
+
+    .circuloFondo3 {
+        left: 3.3%;
+        top: -10px;
+    }
+
+    .circulo4 {
+        top: 105px;
+    }
+
+    .circuloFondo4 {
+        left: 3.3%;
+        top:5px;
+    }
+.circulo5{
+    top: 200px;
+}
+    .circuloFondo5 {
+        left: 3.3%;
+        top: 100px;
+    }
+
+    .circuloFondo6 {
         left: 3.3%
     }
-    .circuloFondo2{
-        left: 3.3%
+.circulo7{
+    top: 80px;
+}
+    .circuloFondo7 {
+        left: 3.3%;
+        top: -20px;
     }
-    .circuloFondo3{
-        left: 3.3%
-    }
-    .circuloFondo4{
-        left: 3.3%
-    }
-    .circuloFondo5{
-        left: 3.3%
-    }
-    .circuloFondo6{
-        left: 3.3%
-    }
-    .circuloFondo7{
-        left: 3.3%
-    }
-    
-    .tituloContainerCompromisos{
+
+    .tituloContainerCompromisos {
         margin-top: -60px;
+    }
+
+    .child2 {
+
+
+        left: -0.5%;
+
     }
 }
 
@@ -939,14 +979,17 @@ footer {
     .quintoPlan {
         display: none;
     }
+
     .textoQuinto {
         width: 60%;
         left: 0%;
     }
+
     #containerCompromisos {
         height: 100%;
     }
-    .tituloQuinto{
+
+    .tituloQuinto {
         text-align: center;
     }
 
@@ -1035,31 +1078,40 @@ footer {
 
 
     }
-    .circulo{
+
+    .circulo {
         display: none;
     }
+
     .circuloFondo1 {
         display: none;
     }
-    .circuloFondo2{
+
+    .circuloFondo2 {
         display: none;
     }
-    .circuloFondo3{
+
+    .circuloFondo3 {
         display: none;
     }
-    .circuloFondo4{
+
+    .circuloFondo4 {
         display: none;
     }
-    .circuloFondo5{
+
+    .circuloFondo5 {
         display: none;
     }
-    .circuloFondo6{
+
+    .circuloFondo6 {
         display: none;
     }
-    .circuloFondo7{
+
+    .circuloFondo7 {
         display: none;
     }
-    .compromiso{
+
+    .compromiso {
         padding: 0%;
         padding: 5%;
     }
@@ -1089,18 +1141,20 @@ footer {
         margin-top: 0.7em;
         font-size: 1em;
     }
-    .textoQuinto{
+
+    .textoQuinto {
         width: 100%;
         margin-left: 2%;
         margin-right: 2%;
-        
-    } 
-    .texto{
+
+    }
+
+    .texto {
         margin: 0;
-     width: 100%;
-     left: 0;
-     right: 0;
-    } 
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
 }
 
 @media only screen and (max-width: 991px) {
