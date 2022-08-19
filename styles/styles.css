@@ -1127,6 +1127,7 @@ footer {
 }
 
 @media only screen and (max-width: 1200px) {
+    
     .nav-item {
         padding-left: 8px;
         padding-right: 8px;
@@ -1151,9 +1152,7 @@ footer {
 
     .textoQuinto {
         width: 100%;
-        margin-left: 2%;
-        margin-right: 2%;
-
+       
     }
 
     .texto {
