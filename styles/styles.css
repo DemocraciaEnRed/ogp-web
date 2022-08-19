@@ -397,6 +397,7 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+
     background-position: 60% 38%;
 }
 
@@ -431,6 +432,8 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size:100%;
+
     background-position: 82% 35%;
 }
 
@@ -448,8 +451,9 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size:100%;
     background-position: 50% 35%;
-
+  
 }
 
 .circuloFondo6 {
@@ -466,7 +470,8 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 0% 46%;
+    background-size:100%;
+    background-position: 50% 10%;
 
 }
 
@@ -484,7 +489,8 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 52% 64%;
+    background-size:100%;
+    background-position: 52% 80%;
 
 }
 
@@ -860,13 +866,10 @@ footer {
         position: relative;
 
 width: 30%;
-    } /*
-    */
-
-     .texto {
-      
-
     } 
+    
+
+     
 
      .imagenQuinto {
         width: 400px;
