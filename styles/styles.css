@@ -416,6 +416,7 @@ a {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 36%;
+  
 }
 
 .circuloFondo4 {
@@ -432,7 +433,7 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100%;
+    background-size: 100%;
 
     background-position: 82% 35%;
 }
@@ -451,9 +452,9 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100%;
+    background-size: 100%;
     background-position: 50% 35%;
-  
+
 }
 
 .circuloFondo6 {
@@ -470,7 +471,7 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100%;
+    background-size: 100%;
     background-position: 50% 10%;
 
 }
@@ -489,7 +490,7 @@ a {
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100%;
+    background-size: 100%;
     background-position: 52% 80%;
 
 }
@@ -859,21 +860,22 @@ footer {
 @media only screen and (max-width: 1800px) {
 
 
-     .containerQuinto {
+    .containerQuinto {
         width: 40%;
     }
-  .quintoPlan {
+
+    .quintoPlan {
         position: relative;
 
-width: 30%;
-    } 
-    
+        width: 30%;
+    }
 
-     
 
-     .imagenQuinto {
+
+
+    .imagenQuinto {
         width: 400px;
-    } 
+    }
 
     .btn5Plan {
         right: 6em;
@@ -882,7 +884,7 @@ width: 30%;
     .textoQuinto {
 
         width: 62%;
-    } 
+    }
 
 
     #containerCompromisos {
