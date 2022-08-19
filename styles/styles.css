@@ -853,35 +853,33 @@ footer {
 @media only screen and (max-width: 1800px) {
 
 
-
-
-    .quintoPlan {
+     .containerQuinto {
+        width: 40%;
+    }
+  .quintoPlan {
         position: relative;
-        margin-right: 15%;
-        left: -6%;
-        top: -10px;
 
-    }
+width: 30%;
+    } /*
+    */
 
-    .texto {
-        margin-left: 122px;
+     .texto {
+      
 
-    }
+    } 
 
-    .imagenQuinto {
+     .imagenQuinto {
         width: 400px;
-    }
+    } 
 
     .btn5Plan {
-        left: 6em;
-
+        right: 6em;
     }
 
     .textoQuinto {
-        width: 100%;
-        left: 10%;
 
-    }
+        width: 62%;
+    } 
 
 
     #containerCompromisos {
@@ -924,11 +922,13 @@ footer {
 
     .circuloFondo4 {
         left: 3.3%;
-        top:5px;
+        top: 5px;
     }
-.circulo5{
-    top: 200px;
-}
+
+    .circulo5 {
+        top: 200px;
+    }
+
     .circuloFondo5 {
         left: 3.3%;
         top: 100px;
@@ -937,16 +937,18 @@ footer {
     .circuloFondo6 {
         left: 3.3%
     }
-.circulo7{
-    top: 80px;
-}
+
+    .circulo7 {
+        top: 80px;
+    }
+
     .circuloFondo7 {
         left: 3.3%;
         top: -20px;
     }
 
     .tituloContainerCompromisos {
-        margin-top: -60px;
+        margin-top: -20px;
     }
 
     .child2 {
