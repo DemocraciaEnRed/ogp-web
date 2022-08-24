@@ -34,7 +34,7 @@ linkPreguntas.addEventListener("click", ()=>{
 
 
 linkContacto.addEventListener("click", ()=>{
-    location.href = "#footer"
+    location.href = "#contactanos"
 })
 home.addEventListener("click", ()=>{
     location.href = "#home"
