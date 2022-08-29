@@ -140,7 +140,7 @@ h1 {
 }
 
 #containerQuinto {
-    height: 750px;
+    height: 1000px;
     background-color: #FBBE1F;
     margin-bottom: 200px;
 }
@@ -157,7 +157,7 @@ h1 {
 .textoQuinto {
     width: 60%;
     position: relative;
-    top: -1000px;
+    top: -1230px;
     z-index: 12;
     text-align: left;
     /* or 108% */
@@ -172,7 +172,7 @@ h1 {
     line-height: 22px;
     text-align: left;
     margin-right: 0;
-    padding: 0 10% 0 10%;
+    /* padding: 0 10% 0 10%; */
 
 }
 
@@ -184,7 +184,7 @@ h1 {
 .btnContainer {
     display: inline-block;
     position: relative;
-    top: 80px;
+    top: 110px;
 }
 
 .subtitulo {
@@ -208,9 +208,9 @@ h1 {
 
 .child {
     top: 358px;
-    border-top: 950px solid #f9f9f9;
-    border-left: 70vw solid transparent;
-    border-right: 70vw solid transparent;
+    border-top: 1200px solid #f9f9f9;
+    border-left: 90vw solid transparent;
+    border-right: 90vw solid transparent;
     width: 0;
     height: 0;
     top: 0px;
@@ -218,7 +218,7 @@ h1 {
     display: block;
     position: relative;
     overflow: hidden;
-    left: -20.5%;
+    left: -40.5%;
     right: 0;
     margin: auto;
     z-index: 4;
@@ -284,7 +284,7 @@ h1 {
     background-color: rgba(250, 216, 194, 0.5);
     position: relative;
     top: -200px;
-    height: 320vh;
+    height: 340vh;
 }
 
 
@@ -867,7 +867,7 @@ footer {
     .quintoPlan {
         position: relative;
 
-        width: 30%;
+        width: 35%;
     }
 
 
@@ -1034,8 +1034,8 @@ footer {
     .child2 {
 
         border-top: 110px solid #1da5d3;
-        border-left: 14.5vw solid transparent;
-        border-right: 14.5vw solid transparent;
+        border-left: 10.5vw solid transparent;
+        border-right: 10.5vw solid transparent;
         width: 0;
         height: 0;
         top: -200px;
@@ -1262,7 +1262,39 @@ footer {
     }
 }
 
+@media only screen and (max-width: 540px) {
+    #containerQuinto {
+        height: 1300px;
+    }
+
+    .child {
+        border-top: 1500px solid #f9f9f9;
+        border-left: 150vw solid transparent;
+        border-right: 150vw solid transparent;
+        left: -100.5%;
+    }
+
+    .textoQuinto {
+        top: -1420px;
+    }
+}
+
 @media only screen and (max-width: 380px) {
+    #containerQuinto {
+        height: 1500px;
+    }
+
+    .child {
+        border-top: 1700px solid #f9f9f9;
+        border-left: 190vw solid transparent;
+        border-right: 190vw solid transparent;
+        left: -140.5%;
+    }
+
+    .textoQuinto {
+        top: -1700px;
+    }
+
     .nombreCompromiso {
         font-size: 0.85em;
     }
