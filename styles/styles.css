@@ -979,11 +979,14 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1363px) {
+@media only screen and (max-width: 1399px) {
     .nav-item {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+@media only screen and (max-width: 1363px) {
 
     .btnContainer {
         display: none;
