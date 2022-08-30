@@ -341,7 +341,7 @@ a {
 }
 
 .circulo1 {
-    top: 70px;
+    top: 110px;
 }
 
 .circulo2 {
@@ -366,13 +366,13 @@ a {
 }
 
 .circulo7 {
-    top: 70px;
+    top: 125px;
 }
 
 .circuloFondo1 {
 
     position: relative;
-    top: -30px;
+    top: 10px;
     left: 4.4%;
     transform: translate(-50%, -50%);
     height: 100px;
@@ -478,7 +478,7 @@ a {
 .circuloFondo7 {
 
     position: relative;
-    top: -30px;
+    top: 25px;
     left: 4.5%;
     transform: translate(-50%, -50%);
     height: 100px;
@@ -892,7 +892,7 @@ footer {
 
 
     #containerCompromisos {
-        height: 440vh;
+        height: 400vh;
     }
 
     #compromisos {
@@ -903,8 +903,13 @@ footer {
         left: -9.2%;
     }
 
+    .circulo1{
+        top: 145px;
+    }
+
     .circuloFondo1 {
         left: 3.3%;
+        top: 45px;
     }
 
     .circulo2 {
@@ -948,12 +953,12 @@ footer {
     }
 
     .circulo7 {
-        top: 80px;
+        top: 150px;
     }
 
     .circuloFondo7 {
         left: 3.3%;
-        top: -20px;
+        top: 50px;
     }
 
     .tituloContainerCompromisos {
