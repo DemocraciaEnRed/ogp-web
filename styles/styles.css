@@ -153,7 +153,6 @@ h1 {
     text-align: left;
 }
 
-
 .textoQuinto {
     width: 60%;
     position: relative;
@@ -184,7 +183,7 @@ h1 {
 .btnContainer {
     display: inline-block;
     position: relative;
-    top: 110px;
+    padding-left: 2.3em;
 }
 
 .subtitulo {
@@ -870,11 +869,16 @@ footer {
         width: 35%;
     }
 
-
-
+    .rowQueEs {
+        padding: 0 3em 0 0;
+    }
 
     .imagenQuinto {
         width: 400px;
+    }
+
+    .btnContainer {
+        padding-left: 0;
     }
 
     .btn5Plan {
@@ -961,6 +965,12 @@ footer {
 
         left: -0.5%;
 
+    }
+}
+
+@media only screen and (max-width: 1625px) {
+    .rowQueEs {
+        padding: 0 8.5em 0 0;
     }
 }
 
@@ -1077,6 +1087,12 @@ footer {
         margin-right: 10%;
     }
 
+    .textoComo {
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .parrafoEncuentros {
         margin-left: 5%;
         margin-right: 5%;
@@ -1123,6 +1139,9 @@ footer {
         padding: 5%;
     }
 
+    .rowQueEs {
+        padding-right: 0;
+    }
 
 }
 
@@ -1148,18 +1167,6 @@ footer {
     h1 {
         margin-top: 0.7em;
         font-size: 1em;
-    }
-
-    .textoQuinto {
-        width: 100%;
-       
-    }
-
-    .texto {
-        margin: 0;
-        width: 100%;
-        left: 0;
-        right: 0;
     }
 }
 
@@ -1208,6 +1215,18 @@ footer {
         padding-right: 0;
     }
 
+    .textoQuinto {
+        width: 100%;
+       
+    }
+
+    .texto {
+        margin: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
 
 }
 
@@ -1241,10 +1260,13 @@ footer {
     }
 
     .texto {
-        text-align: center;
         margin-left: 0%;
         margin-right: 0%;
-        margin-top: -50px;
+    }
+
+    .textoComo {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     .colLogo {
@@ -1262,7 +1284,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 578px) {
     #containerQuinto {
         height: 1300px;
     }
@@ -1275,7 +1297,7 @@ footer {
     }
 
     .textoQuinto {
-        top: -1420px;
+        top: -1520px;
     }
 }
 
@@ -1297,6 +1319,24 @@ footer {
 
     .nombreCompromiso {
         font-size: 0.85em;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .textoQuinto {
+        top: -1780px;
+    }
+
+    .tituloAcerca {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 295px) {
+    .child {
+        border-left: 270vw solid transparent;
+        border-right: 270vw solid transparent;
+        left: -220.5%;
     }
 }
 
