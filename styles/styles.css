@@ -368,7 +368,12 @@ a {
 .circulo7 {
     top: 115px;
 }
-
+.circulo8 {
+    top: 115px;
+}
+.circulo9 {
+    top: 115px;
+}
 .circuloFondo1 {
 
     position: relative;
@@ -494,8 +499,45 @@ a {
 
 }
 
+.circuloFondo8 {
 
+    position: relative;
+    top: 15px;
+    left: 3.8%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #1DA7D3;
+    background-image: url("../img/compromiso\ 8.jpg");
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 52% 80%;
 
+}
+
+.circuloFondo9 {
+
+    position: relative;
+    top: -35px;
+    left: 78px;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 100px;
+
+    border-radius: 0 150px 150px 0;
+    background-color: #1DA7D3;
+    background-image: url("../img/compromiso9.jpg");
+    background-size: cover;
+    transform: rotate(0deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: 100%; */
+    background-position: 80% 52% ;
+
+}
 
 
 .numeroCompromiso {
@@ -564,6 +606,16 @@ a {
 }
 
 .compromiso7 {
+
+    height: fit-content;
+    z-index: 35;
+}
+.compromiso8 {
+
+    height: fit-content;
+    z-index: 35;
+}
+.compromiso9 {
 
     height: fit-content;
     z-index: 35;
