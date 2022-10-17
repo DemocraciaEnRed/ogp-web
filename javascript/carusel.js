@@ -18,11 +18,7 @@ if (totalSlides != 0){
 
 leftBtn.style.visibility = 'hidden';
 // cequeos para el desarrollo
-console.log('recuerda borrar estos ocnsolLog');
-console.log(slides);
-console.log(totalSlides);
-console.log(slides.childNodes)
-console.log('++++++++++++++++++++++++');
+
 
 const moveRight = () => {
 
@@ -51,12 +47,10 @@ const moveRight = () => {
 const moveLeft = () => {
     if (position < totalSlides){
 
-        console.log('estado',position);
 
         actual = document.getElementById(slides.childNodes[position].id);
         actual.style.display= "none";
         position--;
-        console.log('next',position);
 
         siguiente = document.getElementById(slides.childNodes[position].id);
 

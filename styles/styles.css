@@ -17,9 +17,7 @@ body {
     overflow-x: hidden;
 }
 /* ooo" 30/sep/22 iframe youtube */
-#linkPreguntas {
-    font-size: 12px;
-}
+
 .parcheDivision{
     height: 300px;
     background-color: rgba(250, 216, 194, 0.5);
@@ -1415,6 +1413,9 @@ footer {
         width: 80%;
         height: 300px;
     } */
+    #linkPreguntas {
+        font-size: 12px;
+    }
     .not-carusel{
         display: block;
     }
@@ -1432,7 +1433,16 @@ footer {
         display: block !important;
         width: 90%;
     }
-
+    .leyenda-colores{
+        width:90%;
+    }
+    #ley-circulo{
+        height: 50px !important;
+        width:50px !important;
+    }
+    .leyenda-colores p {
+        font-size: 20px  !important;
+    }
     .logo img {
         width: 70%;
         height: 70%;
