@@ -3,7 +3,7 @@
     height: auto;
     width: 100%;
     /* border: 1px solid red !important; */
-    background-color:#fff;
+    background-color:#f9f9f9;
     padding: 10px 30px;
     margin-top: 20px;
 
@@ -141,12 +141,13 @@ h1 {
     justify-content: space-around; 
     align-content:center;
     padding: 0px 120px;
+    margin-top: 50px;
 }
 
 .link-button {
 
     display: inline;
-    background: #FFFFFF;
+    background: transparent;
     border: 2px solid #1DA7D3;
     border-radius: 20px;
     padding: 14px 6px 6px 6px !important;

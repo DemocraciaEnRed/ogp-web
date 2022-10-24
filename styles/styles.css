@@ -1597,7 +1597,7 @@ footer {
     }
     .container-fluid{
         top: 110px !important; 
-        background-color: #fff !important;  
+        background-color: #f9f9f9 !important;  
       }
     /* .container-fluid:after {
         content: "";
@@ -1614,7 +1614,7 @@ footer {
         border: none !important;
     }
     #containerQuinto {
-        background-color: #fff;
+        background-color: #f9f9f9;
     }
     .child2 {
         /* top: 1313px !important; */
