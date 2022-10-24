@@ -1122,7 +1122,7 @@ footer {
     .child2 {
 
 
-        left: -0.5%;
+        left: 8px;
 
     }
 }
@@ -1408,7 +1408,9 @@ footer {
         overflow-x: hidden;
 
     }
-
+    /* .textoQuinto {
+        top: 520px;
+    } */
     /* #calendario2 {
         width: 80%;
         height: 300px;
@@ -1417,13 +1419,16 @@ footer {
         font-size: 12px;
     }
     .not-carusel{
-        display: block;
+        display: none;
     }
+
     .titulo-etapas{
-        display:none;
+        display:block;
+        margin: 0px 35px;
+
     }
     .carousel-container{
-        display:none;
+        display:block;
     }
     #calendario2{
         z-index: 8000;
@@ -1475,7 +1480,13 @@ footer {
         padding-right: 0%;
         padding-left: 0%;
     }
-
+    .child {
+        /* border-top: 1500px solid #f9f9f9;
+        border-left: 150vw solid transparent;
+        border-right: 150vw solid transparent;
+        left: -100.5%; */
+        display:none;
+    }
     .colLogo2 {
         padding-right: 0%;
         padding-left: 0%;
@@ -1566,7 +1577,52 @@ footer {
     }
 }
 
+@media only screen and  (max-width: 748px){
+    /* .carousel-container{
+        width: 95% !important;
+        margin: auto !important;
+    } */
+    .container-fluid{
+        top: 110px !important; 
+        background-color: #fff !important;  
+      }
+    .container-fluid:after {
+        content: "";
+        position: absolute;
+        bottom: -67px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-width: 67px 212px 0;
+        border-style: solid;
+        border-color: #fff transparent transparent;
+    }
+    .titulo-etapas {
+        border: none !important;
+    }
+    #containerQuinto {
+        background-color: #fff;
+    }
+    .child2 {
+        top: 1313px !important;
+        z-index: 400;
+        width: 0;
+        height: 0;
+        left: 8px;
+        border-style: solid;
+        border-width: 41px 88px 0 88px;
+        border-color: #007bff transparent transparent transparent;
+        line-height: 0px;
+        _border-color: #007bff #000000 #000000 #000000;
+        _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+    }
+    .texto {
+        padding-bottom: 50px !important;
+        margin-bottom: 20px !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
 
+    }
+}
 /* font-family: 'Montserrat', sans-serif;     BOTONES PLANES
 font-family: 'Open Sans', sans-serif;         
 font-family: 'Playfair Display', serif;       HERO, QUINTO PLAN

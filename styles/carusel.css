@@ -189,8 +189,8 @@ h1 {
         height: auto;
         display: flex;
         flex-direction: column;
-        padding: 10px 0px;
-        margin: auto;
+        padding: 10px 50%;
+        margin: 0px -97px;
     }
     .content-button a {
         margin: 10px -13px;
