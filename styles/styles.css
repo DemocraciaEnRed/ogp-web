@@ -1576,17 +1576,30 @@ footer {
         left: -220.5%;
     }
 }
-
+@media only screen and  (min-width: 748px){
+    #arrow2 {
+        display: none
+    }
+}
 @media only screen and  (max-width: 748px){
     /* .carousel-container{
         width: 95% !important;
         margin: auto !important;
     } */
+    #arrow1{ 
+        display: none;
+    }
+    #arrow2 {
+        display: block;
+    }
+    #arrow2 child2 {
+        top: 0px !important;
+    }
     .container-fluid{
         top: 110px !important; 
         background-color: #fff !important;  
       }
-    .container-fluid:after {
+    /* .container-fluid:after {
         content: "";
         position: absolute;
         bottom: -67px;
@@ -1596,7 +1609,7 @@ footer {
         border-width: 67px 212px 0;
         border-style: solid;
         border-color: #fff transparent transparent;
-    }
+    } */
     .titulo-etapas {
         border: none !important;
     }
@@ -1604,7 +1617,7 @@ footer {
         background-color: #fff;
     }
     .child2 {
-        top: 1313px !important;
+        /* top: 1313px !important; */
         z-index: 400;
         width: 0;
         height: 0;
