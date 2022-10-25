@@ -4,20 +4,38 @@ const leftBtn = document.getElementById('left-btn');
 
 let contenido = document.getElementById('slide1');
 let totalSlides = slides.children.length;
-let position = 0
+// al indicar la posicion damos el punto de partida de lcarousel
+let position = 2; 
 let anterior = '';
 let siguiente = '';
 
-if (totalSlides != 0){
+if ((totalSlides != 0) && (position < totalSlides)) {
     // inicializar carusel
     console.log('init carousel!!!')
-   
+    actual = document.getElementById(slides.childNodes[position].id);
+    actual.style.display= "block";
   
+    if (position === 0){
+        console.log('primer if')
+
+        leftBtn.style.visibility = 'hidden';
+        rightBtn.style.visibility = 'visible';
+    } else  if ((position > 0) && (position < totalSlides  ) && (position != totalSlides -1 )){
+        console.log('segundo if')
+
+        leftBtn.style.visibility = 'visible';
+        rightBtn.style.visibility = 'visible';
+    }else if(position == totalSlides -1 ){
+        console.log('tercer if')
+
+        leftBtn.style.visibility = 'visible';
+
+        rightBtn.style.visibility = 'hidden';
+    }
 }
 
 
-leftBtn.style.visibility = 'hidden';
-// cequeos para el desarrollo
+// leftBtn.style.visibility = 'hidden';
 
 
 const moveRight = () => {

@@ -60,6 +60,8 @@ h1 {
     top: 182px;
     right: 0px;
     margin: auto 0 auto -2em;
+    visibility: visible;
+
 }
 
 #right-btn .arrow {
@@ -70,7 +72,7 @@ h1 {
     position:absolute;
     top: 182px;
     left: 0px;
-    visibility: hidden;
+    visibility: visible;
     z-index: 0;
     margin: auto -2em auto 0;
 }
@@ -91,7 +93,7 @@ h1 {
     padding: 100px 20px;
 }
 #slide1 {
-    display: block ;
+    display: none ;
 }
 .slide h1 {
     font-family: 'Raleway';
