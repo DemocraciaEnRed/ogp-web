@@ -199,7 +199,7 @@ h1 {
     }
 }
 @media only screen and (max-width: 768px) {
-    .content-carousel {
+    .carousel-container{
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -211,17 +211,20 @@ h1 {
         top: 350px;
     }
     .content-button{
-        width: auto;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
-        padding: 10px 50%;
-        margin: 0px -97px;
+        /* padding: 10px 50%;
+        margin: 0px -97px; */
     }
     .content-button a {
         margin: 10px -13px;
     }
-
+    .titulo-etapas {
+        margin: 0px;
+        text-align: center;
+    }
     
     #ley-circulo {
         height: 18px;
