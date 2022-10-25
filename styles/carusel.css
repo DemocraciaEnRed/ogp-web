@@ -142,13 +142,16 @@ h1 {
     flex-direction: row;
     justify-content: space-around; 
     align-content:center;
-    padding: 0px 120px;
+    padding: 0px 60px;
     margin-top: 50px;
 }
 
 .link-button {
-
-    display: inline;
+    height: 42px;
+    width:  265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: transparent;
     border: 2px solid #1DA7D3;
     border-radius: 20px;
@@ -180,7 +183,27 @@ h1 {
     border: 2px solid #5E5E5E;
     cursor: none;
 }
+@media only screen and (max-width: 1200px){
+    .content-button{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .content-button a {
+        margin: 10px;
+    }
+}
 @media only screen and (max-width: 768px) {
+    .content-carousel {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
     .carousel-container{
         height: 750px;
     }
