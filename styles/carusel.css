@@ -203,9 +203,8 @@ h1 {
         display: flex;
         justify-content: center;
         flex-direction: row;
-    }
-    .carousel-container{
-        height: 750px;
+ 
+        height: 600px;
     }
     #left-btn, #right-btn {
         top: 350px;
