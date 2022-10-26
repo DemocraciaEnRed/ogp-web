@@ -221,6 +221,9 @@ h1 {
     .content-button a {
         margin: 10px -13px;
     }
+    .link-button{
+        padding: 6px !important;
+    }
     .titulo-etapas {
         margin: 0px;
         text-align: center;

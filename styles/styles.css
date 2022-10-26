@@ -52,8 +52,8 @@ body {
     /* border: 1px solid #000; */
 
     border-radius: 100%;
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     margin: auto;
     margin-top: 40px;
 }
@@ -1408,16 +1408,19 @@ footer {
         overflow-x: hidden;
 
     }
-    /* .textoQuinto {
-        top: 520px;
-    } */
-    /* #calendario2 {
-        width: 80%;
-        height: 300px;
-    } */
+    .btnPlanes{
+        width: 60px;
+        height: 40px;
+        padding: 5.74648px 5.74648px 5.74648px 7.66197px;
+        border-radius: 500px;
+    }
+    .special-span {
+        display: none;
+    }
     #linkPreguntas {
         font-size: 12px;
     }
+
     .not-carusel{
         display: none;
     }
@@ -1439,15 +1442,30 @@ footer {
         width: 90%;
     }
     .leyenda-colores{
+        flex-direction: column;
         width:90%;
     }
     #ley-circulo{
-        height: 50px !important;
-        width:50px !important;
+        height: 20px !important;
+        width:20px !important;
     }
     .leyenda-colores p {
         font-size: 20px  !important;
+        width: 50% !important;
+
     }
+    .leyenda-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    #ley-circulo {
+
+        margin-top: 0px !important;
+        margin: 0px 10px !important;
+    }
+
     .logo img {
         width: 70%;
         height: 70%;
@@ -1495,6 +1513,7 @@ footer {
     .btnAcerca {
         margin-top: 14px;
     }
+
 }
 
 @media only screen and (max-width: 578px) {
