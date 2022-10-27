@@ -1451,7 +1451,7 @@ footer {
     }
     .leyenda-colores p {
         font-size: 20px  !important;
-        width: 50% !important;
+        width: 60% !important;
 
     }
     .leyenda-item{
@@ -1563,6 +1563,9 @@ footer {
 
     .nombreCompromiso {
         font-size: 0.85em;
+    }
+    .leyenda-colores p {
+        width: 80% !important;
     }
 }
 
