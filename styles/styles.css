@@ -1452,7 +1452,7 @@ footer {
     .leyenda-colores p {
         font-size: 20px  !important;
         width: 60% !important;
-
+        text-align: left;
     }
     .leyenda-item{
         display: flex;
